@@ -10,8 +10,8 @@ teams = %W{ducks bruins sabres flames hurricanes blackhawks avalanche bluejacket
 
 
 teams.each do |team|
-	html = Nokogiri::HTML(File.open(File.expand_path("#{team}.html")))
-	#html = Nokogiri::HTML(File.open(File.expand_path("bruins.html")))
+	html = Nokogiri::HTML(File.open(File.expand_path("get/#{team}.html")))
+	#html = Nokogiri::HTML(File.open(File.expand_path("get/bruins.html")))
 	html_table = html.css("tbody tr")
 	category = 'None yet'
 	html_table.each do |row|
