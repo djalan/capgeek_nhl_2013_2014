@@ -1,0 +1,85 @@
+sed -i 's/J. Silfverberg/Jakob Silfverberg/' $1
+
+
+Martin St. Louis / Martin St Louis
+
+
+
+/F. Andersen/
+/A. Laganiere/
+/J. Cramarossa/
+
+/A. Fallstrom/
+/A. Khokhlachev/
+/M. Grigorenko/
+R. Ristolainen
+Z. Girgensons
+J. G.-Leduc
+T. Wotherspoon
+C. Breen
+N. Blanchard
+A.J. Jenks
+N. Khabibulin
+P. Bordeleau
+J. Giguere
+D. Van Der Gulik
+G. Desbiens
+M. Sgarbossa
+C. McElhinney
+J. A.-Marchessault
+F. S.-Denis
+V. Nichushkin
+M. Callahan
+A. Barkov
+J. Huberdeau
+M. Lindstrom
+P. Lefebvre
+J. Berube
+A. Bodnarchuk
+M. Cliche
+R. Bussieres
+S. Veilleux
+K. Foucault
+J. D.-Deslauriers
+B. Gallagher
+P.K. Subban
+S. Collberg
+M. St. Pierre
+C. Roussel
+J. Berube
+J. Pageau
+D. Dziurzynski
+M. Bourdon
+H. Samuelsson
+B. Shinnimin
+D. Dziurzynski
+M. Brisebois
+M. Fleury
+P. Samuelsson
+N. Drazenovic
+H. Zolnierczyk
+P. Emanuelsson
+K. Abeltshauser
+J.P. Anderson
+T.J. Oshie
+V. Tarasenko
+J. Binnington
+S. Wannstrom
+S. Della Rovere
+B.J. Crombeen
+A. Killorn
+P. Labrie
+V. Namestnikov
+C. Desjardins
+Matt Taormina
+Cedric Paquette
+K. Gudlevskis
+J.T. Brown
+Dan Sexton
+J. Jacques
+A. MacWilliam
+L. Blomstrand
+A. Grenier
+C. Schilling
+N. Deschamps
+J. Brouillette

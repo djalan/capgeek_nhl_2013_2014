@@ -34,7 +34,7 @@ sed -i .bak 's/O. E.-Larsson/Oliver Ekman-Larsson/' $1
 sed -i .bak 's/M. Fleury/' $1
 sed -i .bak 's/A. Desjardins/Andrew Desjardins/' $1
 sed -i .bak 's/M. Vlasic/Marc-Edouard Vlasic/' $1
-sed -i .bak 's/V. Tarasenko/' $1
+sed -i .bak 's/V. Tarasenko/Vladimir Tarasenko/' $1
 sed -i .bak 's/J. Langenbrunner/Jamie Langenbrunner/' $1
 sed -i .bak 's/K. Shattenkirk/Kevin Shattenkirk/' $1
 sed -i .bak 's/V. Lecavalier/Vincent Lecavalier/' $1
@@ -59,4 +59,5 @@ sed -i .bak 's/T.J. Oshie/T.J. Oshie/' $1
 sed -i .bak 's/B.J. Crombeen/B.J. Crombeen/' $1
 sed -i .bak 's/J.T. Wyman/JT Wyman/' $1
 
-sed -i .bak 's/Martin St Louis/Martin St. Louis/' $1
+sed -i .bak 's/Martin St Louis/Martin St Louis/' $1
+sed -i .bak 's/Matt Carle/Matthew Carle/' $1

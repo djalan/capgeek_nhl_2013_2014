@@ -1,0 +1,750 @@
+                     -----------------------
+                     --------- ANA ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+               CAM FOWLER   FRANCOIS BEAUCHEMIN       21.81%
+      FRANCOIS BEAUCHEMIN   SHELDON SOURAY            16.43%
+                      N/A   CAM FOWLER                 8.54%
+               CAM FOWLER   SAMI VATANEN               7.36%
+                      N/A   SHELDON SOURAY             5.78%
+              BEN LOVEJOY   FRANCOIS BEAUCHEMIN        4.07%
+
+
+                      ------ Forwards ------
+
+              COREY PERRY               NICK BONINO              RYAN GETZLAF                       N/A  14.7%
+               BOBBY RYAN                SAKU KOIVU             TEEMU SELANNE                       N/A  10.9%
+              COREY PERRY              RYAN GETZLAF                BOBBY RYAN                       N/A   6.6%
+               BOBBY RYAN              RYAN GETZLAF             TEEMU SELANNE               COREY PERRY   6.3%
+            TEEMU SELANNE                SAKU KOIVU             KYLE PALMIERI                BOBBY RYAN   5.7%
+            MATT BELESKEY              RYAN GETZLAF               COREY PERRY                       N/A   4.2%
+
+
+
+                     -----------------------
+                     --------- BOS ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   DOUGIE HAMILTON           23.46%
+              ZDENO CHARA   DENNIS SEIDENBERG         14.14%
+                      N/A   ZDENO CHARA               12.18%
+                      N/A   ZDENO CHARA               10.83%
+                      N/A   ZDENO CHARA                7.67%
+                      N/A   DOUGIE HAMILTON            6.32%
+
+
+                      ------ Forwards ------
+
+            NATHAN HORTON              TYLER SEGUIN              DAVID KREJCI               MILAN LUCIC  31.4%
+            BRAD MARCHAND          PATRICE BERGERON             RICH PEVERLEY                       N/A  25.1%
+         PATRICE BERGERON              TYLER SEGUIN            CARL SODERBERG              JAROMIR JAGR   5.1%
+             JORDAN CARON              DAVID KREJCI             RICH PEVERLEY                       N/A   2.3%
+            BRAD MARCHAND              DAVID KREJCI             RICH PEVERLEY                       N/A     2%
+             DAVID KREJCI            CARL SODERBERG          PATRICE BERGERON              JAROMIR JAGR   1.8%
+
+
+
+                     -----------------------
+                     --------- BUF ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   CHRISTIAN EHRHOFF         23.24%
+           JORDAN LEOPOLD   TYLER MYERS               14.64%
+                      N/A   CHRISTIAN EHRHOFF         12.96%
+        CHRISTIAN EHRHOFF   TYLER MYERS               10.39%
+                      N/A   CHRISTIAN EHRHOFF          8.94%
+            ANDREJ SEKERA   TYLER MYERS                6.15%
+
+
+                      ------ Forwards ------
+
+              TYLER ENNIS                 STEVE OTT              CODY HODGSON          JASON POMINVILLE  12.2%
+             THOMAS VANEK               TYLER ENNIS          JASON POMINVILLE            MARCUS FOLIGNO  10.6%
+         JASON POMINVILLE                 STEVE OTT               TYLER ENNIS              THOMAS VANEK   9.6%
+         JASON POMINVILLE                 STEVE OTT              CODY HODGSON              THOMAS VANEK     8%
+            DREW STAFFORD                 STEVE OTT              CODY HODGSON          JASON POMINVILLE   5.9%
+         JASON POMINVILLE              CODY HODGSON               TYLER ENNIS              THOMAS VANEK   4.7%
+
+
+
+                     -----------------------
+                     --------- CAR ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   JOE CORVO                 10.63%
+             JUSTIN FAULK   MARCANDRE BERGERON         8.97%
+                      N/A   JUSTIN FAULK               8.64%
+                      N/A   JONI PITKANEN              6.76%
+                      N/A   JONI PITKANEN              6.53%
+       MARCANDRE BERGERON   JOE CORVO                   6.2%
+
+
+                      ------ Forwards ------
+
+          ALEXANDER SEMIN                ERIC STAAL               JIRI TLUSTY                       N/A  20.9%
+                TIM BRENT                ERIC STAAL               JIRI TLUSTY           ALEXANDER SEMIN  10.4%
+             JEFF SKINNER                ERIC STAAL               JIRI TLUSTY           ALEXANDER SEMIN   9.3%
+             JEFF SKINNER              JORDAN STAAL                ERIC STAAL           ALEXANDER SEMIN   6.8%
+            JUSSI JOKINEN              JORDAN STAAL              JEFF SKINNER                       N/A   6.6%
+              TUOMO RUUTU              JORDAN STAAL              JEFF SKINNER                       N/A   3.7%
+
+
+
+                     -----------------------
+                     --------- CBJ ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+             JACK JOHNSON   JAMES WISNIEWSKI          31.01%
+           NIKITA NIKITIN   FEDOR TYUTIN              18.03%
+             JACK JOHNSON   FEDOR TYUTIN              17.76%
+         JAMES WISNIEWSKI   FEDOR TYUTIN               6.15%
+           NIKITA NIKITIN   TIM ERIXON                 3.01%
+             JACK JOHNSON   TIM ERIXON                 2.46%
+
+
+                      ------ Forwards ------
+
+              RJ UMBERGER           DERICK BRASSARD          BRANDON DUBINSKY                       N/A  11.1%
+             NICK FOLIGNO             RYAN JOHANSEN             VINNY PROSPAL                       N/A     9%
+             CAM ATKINSON           DERICK BRASSARD               RJ UMBERGER                       N/A   8.3%
+            VINNY PROSPAL             RYAN JOHANSEN            ARTEM ANISIMOV                       N/A   7.7%
+             NICK FOLIGNO           DERICK BRASSARD               RJ UMBERGER                       N/A   4.1%
+            VINNY PROSPAL          BRANDON DUBINSKY            MARIAN GABORIK                       N/A     4%
+
+
+
+                     -----------------------
+                     --------- CGY ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+            MARK GIORDANO   DENNIS WIDEMAN             18.8%
+                      N/A   DENNIS WIDEMAN            16.71%
+                TJ BRODIE   DENNIS WIDEMAN            15.23%
+          JAY BOUWMEESTER   MARK GIORDANO             11.43%
+            MARK GIORDANO   TJ BRODIE                  10.2%
+                      N/A   TJ BRODIE                  4.79%
+
+
+                      ------ Forwards ------
+
+             ALEX TANGUAY             JAROME IGINLA           MIKE CAMMALLERI                       N/A   9.5%
+         CURTIS GLENCROSS             JAROME IGINLA           MIKE CAMMALLERI              ALEX TANGUAY   7.7%
+         CURTIS GLENCROSS             LEE STEMPNIAK           MIKE CAMMALLERI                       N/A   6.9%
+          MIKE CAMMALLERI               JIRI HUDLER             JAROME IGINLA                       N/A   6.8%
+         CURTIS GLENCROSS               JIRI HUDLER             LEE STEMPNIAK                       N/A   4.5%
+            LEE STEMPNIAK            ROMAN CERVENKA               JIRI HUDLER                       N/A   4.1%
+
+
+
+                     -----------------------
+                     --------- CHI ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+             DUNCAN KEITH   BRENT SEABROOK             37.8%
+                      N/A   NICK LEDDY                27.33%
+               NICK LEDDY   MICHAL ROZSIVAL            7.02%
+           BRENT SEABROOK   NICK LEDDY                 5.36%
+             DUNCAN KEITH   JOHNNY ODUYA               3.58%
+                      N/A   DUNCAN KEITH               3.19%
+
+
+                      ------ Forwards ------
+
+             MARIAN HOSSA            JONATHAN TOEWS               ANDREW SHAW                       N/A  25.5%
+             PATRICK KANE              DAVE BOLLAND             PATRICK SHARP           VIKTOR STALBERG  19.3%
+             BRANDON SAAD             PATRICK SHARP              PATRICK KANE           VIKTOR STALBERG   5.9%
+             BRANDON SAAD            JONATHAN TOEWS               ANDREW SHAW                       N/A   5.7%
+             BRANDON SAAD              DAVE BOLLAND              PATRICK KANE           VIKTOR STALBERG   3.3%
+             BRANDON SAAD            JONATHAN TOEWS              MARIAN HOSSA                       N/A   3.2%
+
+
+
+                     -----------------------
+                     --------- COL ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   TYSON BARRIE              17.43%
+                      N/A   ERIK JOHNSON              12.31%
+                      N/A   GABRIEL LANDESKOG         10.79%
+                      N/A   TYSON BARRIE               9.27%
+                      N/A   STEFAN ELLIOTT              8.3%
+             ERIK JOHNSON   MATT HUNWICK               6.78%
+
+
+                      ------ Forwards ------
+
+             PA PARENTEAU             JOHN MITCHELL              MATT DUCHENE         GABRIEL LANDESKOG  14.2%
+             RYAN OREILLY              MATT DUCHENE              PAUL STASTNY              PA PARENTEAU  13.1%
+             PA PARENTEAU              MATT DUCHENE              PAUL STASTNY              JAMIE MCGINN   9.3%
+             PA PARENTEAU              MATT DUCHENE              RYAN OREILLY              JAMIE MCGINN   6.5%
+             MILAN HEJDUK              MATT DUCHENE              PA PARENTEAU              JAMIE MCGINN   6.2%
+              DAVID JONES              PAUL STASTNY              MILAN HEJDUK              JAMIE MCGINN   4.7%
+
+
+
+                     -----------------------
+                     --------- DAL ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   ALEX GOLIGOSKI             9.11%
+                      N/A   TREVOR DALEY               8.79%
+         STEPHANE ROBIDAS   ALEX GOLIGOSKI             8.68%
+                      N/A   ALEX GOLIGOSKI             8.35%
+             TREVOR DALEY   ALEX GOLIGOSKI             8.03%
+                      N/A   STEPHANE ROBIDAS            7.7%
+
+
+                      ------ Forwards ------
+
+               JAMIE BENN              JAROMIR JAGR               RAY WHITNEY             LOUI ERIKSSON  11.7%
+            LOUI ERIKSSON               RAY WHITNEY                JAMIE BENN                 ERIK COLE   8.6%
+               JAMIE BENN              JAROMIR JAGR            BRENDEN MORROW                       N/A   8.2%
+            LOUI ERIKSSON              JAROMIR JAGR                JAMIE BENN                       N/A   5.1%
+              RAY WHITNEY              JAROMIR JAGR            BRENDEN MORROW                       N/A   4.4%
+            MICHAEL RYDER                 DEREK ROY              REILLY SMITH             LOUI ERIKSSON   4.3%
+
+
+
+                     -----------------------
+                     --------- DET ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   NIKLAS KRONWALL           35.44%
+            BRENDAN SMITH   JAKUB KINDL                9.51%
+              JAKUB KINDL   NIKLAS KRONWALL            8.64%
+                IAN WHITE   NIKLAS KRONWALL            7.77%
+              JAKUB KINDL   IAN WHITE                  7.57%
+              JAKUB KINDL   KYLE QUINCEY                6.6%
+
+
+                      ------ Forwards ------
+
+            JOHAN FRANZEN             PAVEL DATSYUK            DAMIEN BRUNNER         HENRIK ZETTERBERG    26%
+        HENRIK ZETTERBERG             PAVEL DATSYUK             JOHAN FRANZEN                       N/A  15.6%
+            DANIEL CLEARY            GUSTAV NYQUIST         VALTTERI FILPPULA                       N/A  10.6%
+            DANIEL CLEARY             PAVEL DATSYUK            DAMIEN BRUNNER         HENRIK ZETTERBERG   8.2%
+            TODD BERTUZZI         VALTTERI FILPPULA             DANIEL CLEARY                       N/A   3.4%
+        JUSTIN ABDELKADER               TOMAS TATAR             JOHAN FRANZEN                       N/A   3.4%
+
+
+
+                     -----------------------
+                     --------- EDM ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   JUSTIN SCHULTZ            34.27%
+                      N/A   RYAN WHITNEY              13.09%
+                      N/A   RYAN WHITNEY               8.09%
+                      N/A   JUSTIN SCHULTZ             6.16%
+                      N/A   JUSTIN SCHULTZ             4.88%
+               JEFF PETRY   JUSTIN SCHULTZ             4.88%
+
+
+                      ------ Forwards ------
+
+             NAIL YAKUPOV             JORDAN EBERLE                SAM GAGNER                RYAN SMYTH  23.6%
+       RYAN NUGENTHOPKINS             SHAWN HORCOFF             JORDAN EBERLE               TAYLOR HALL    11%
+              ALES HEMSKY                SAM GAGNER              NAIL YAKUPOV                RYAN SMYTH  10.3%
+              ALES HEMSKY             SHAWN HORCOFF        RYAN NUGENTHOPKINS               TAYLOR HALL   9.8%
+       RYAN NUGENTHOPKINS             JORDAN EBERLE         TEEMU HARTIKAINEN               TAYLOR HALL   7.4%
+               SAM GAGNER             JORDAN EBERLE         TEEMU HARTIKAINEN              NAIL YAKUPOV   3.5%
+
+
+
+                     -----------------------
+                     --------- FLA ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+           DMITRY KULIKOV   BRIAN CAMPBELL            23.96%
+               FILIP KUBA   BRIAN CAMPBELL            19.92%
+               TJ BRENNAN   BRIAN CAMPBELL            14.76%
+                      N/A   BRIAN CAMPBELL             9.05%
+           DMITRY KULIKOV   FILIP KUBA                 5.43%
+              COLBY ROBAK   BRIAN CAMPBELL             5.15%
+
+
+                      ------ Forwards ------
+
+        TOMAS FLEISCHMANN                MARCEL GOC             TOMAS KOPECKY                       N/A  19.1%
+            PETER MUELLER        JONATHAN HUBERDEAU                DREW SHORE                       N/A  13.2%
+            PETER MUELLER        JONATHAN HUBERDEAU            SHAWN MATTHIAS           SCOTTIE UPSHALL   9.9%
+            PETER MUELLER        JONATHAN HUBERDEAU                MARCEL GOC                       N/A   3.6%
+        TOMAS FLEISCHMANN             STEPHEN WEISS             PETER MUELLER                       N/A   2.9%
+             ALEX KOVALEV        JONATHAN HUBERDEAU           SCOTTIE UPSHALL                       N/A   2.4%
+
+
+
+                     -----------------------
+                      --------- LA ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+              JAKE MUZZIN   SLAVA VOYNOV              27.73%
+                      N/A   DREW DOUGHTY              26.42%
+              JAKE MUZZIN   DREW DOUGHTY              12.68%
+             SLAVA VOYNOV   ALEC MARTINEZ              7.11%
+             DREW DOUGHTY   SLAVA VOYNOV               3.32%
+                      N/A   DREW DOUGHTY               2.73%
+
+
+                      ------ Forwards ------
+
+              JEFF CARTER             MIKE RICHARDS              ANZE KOPITAR                       N/A  30.9%
+             DUSTIN BROWN              ANZE KOPITAR           JUSTIN WILLIAMS                       N/A  16.8%
+          JUSTIN WILLIAMS              TREVOR LEWIS              JARRET STOLL                       N/A   8.4%
+             DUSTIN BROWN              JARRET STOLL           JUSTIN WILLIAMS                       N/A   4.3%
+              SIMON GAGNE              JARRET STOLL           JUSTIN WILLIAMS                       N/A   3.7%
+              JEFF CARTER             MIKE RICHARDS              JARRET STOLL             DUSTIN PENNER   3.3%
+
+
+
+                     -----------------------
+                     --------- MIN ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+               RYAN SUTER   JARED SPURGEON            47.44%
+                      N/A   RYAN SUTER                 8.63%
+             JONAS BRODIN   TOM GILBERT                8.36%
+               RYAN SUTER   TOM GILBERT                7.82%
+                      N/A   JONAS BRODIN               5.26%
+                      N/A   TOM GILBERT                4.72%
+
+
+                      ------ Forwards ------
+
+              ZACH PARISE               MIKKO KOIVU             KYLE BRODZIAK                       N/A  22.6%
+             DANY HEATLEY               MIKKO KOIVU               ZACH PARISE                       N/A  11.3%
+          DEVIN SETOGUCHI               MATT CULLEN       PIERREMARC BOUCHARD                       N/A  10.2%
+              ZACH PARISE               MIKKO KOIVU          JASON POMINVILLE                       N/A    10%
+              ZACH PARISE               MIKKO KOIVU       PIERREMARC BOUCHARD              DANY HEATLEY   8.1%
+          DEVIN SETOGUCHI               MATT CULLEN           MIKAEL GRANLUND                       N/A   7.8%
+
+
+
+                     -----------------------
+                     --------- MTL ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                PK SUBBAN   ANDREI MARKOV             52.66%
+             RAPHAEL DIAZ   ANDREI MARKOV             16.54%
+         FRANCIS BOUILLON   PK SUBBAN                  4.56%
+            TOMAS KABERLE   FRANCIS BOUILLON            3.8%
+              JOSH GORGES   FRANCIS BOUILLON           3.71%
+         FRANCIS BOUILLON   RAPHAEL DIAZ               3.33%
+
+
+                      ------ Forwards ------
+
+           MAX PACIORETTY          DAVID DESHARNAIS         BRENDAN GALLAGHER                       N/A  25.8%
+            MICHAEL RYDER            TOMAS PLEKANEC              BRIAN GIONTA                       N/A  18.2%
+             BRIAN GIONTA            TOMAS PLEKANEC              RENE BOURQUE                       N/A  17.4%
+                ERIK COLE          DAVID DESHARNAIS            MAX PACIORETTY                       N/A  10.2%
+        BRENDAN GALLAGHER           ALEX GALCHENYUK                LARS ELLER                       N/A   2.1%
+           MAX PACIORETTY          DAVID DESHARNAIS              RENE BOURQUE                       N/A   1.8%
+
+
+
+                     -----------------------
+                      --------- NJ ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   MAREK ZIDLICKY            46.18%
+                      N/A   MAREK ZIDLICKY             9.36%
+                      N/A   ANDY GREENE                8.37%
+           MAREK ZIDLICKY   ANDY GREENE                6.77%
+                      N/A   ANDY GREENE                 6.4%
+                      N/A   PETER HARROLD              5.79%
+
+
+                      ------ Forwards ------
+
+           ILYA KOVALCHUK              TRAVIS ZAJAC            DAVID CLARKSON              PATRIK ELIAS  35.5%
+           ILYA KOVALCHUK             ADAM HENRIQUE            DAVID CLARKSON              PATRIK ELIAS   9.2%
+            STEVE BERNIER             ADAM HENRIQUE              BOBBY BUTLER            ILYA KOVALCHUK     6%
+           DAVID CLARKSON             ADAM HENRIQUE              TRAVIS ZAJAC            ILYA KOVALCHUK   4.6%
+           STEVE SULLIVAN             ADAM HENRIQUE             STEVE BERNIER              PATRIK ELIAS   4.4%
+            STEVE BERNIER              TRAVIS ZAJAC          ANDREI LOKTIONOV            ILYA KOVALCHUK   4.1%
+
+
+
+                     -----------------------
+                     --------- NSH ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+               SHEA WEBER   ROMAN JOSI                52.58%
+                      N/A   SHEA WEBER                 9.48%
+               RYAN ELLIS   SHEA WEBER                 9.21%
+               RYAN ELLIS   JONATHON BLUM              7.11%
+            JONATHON BLUM   VICTOR BARTLEY             6.14%
+               RYAN ELLIS   ROMAN JOSI                 3.77%
+
+
+                      ------ Forwards ------
+
+         PATRIC HORNQVIST               MIKE FISHER               MARTIN ERAT          SERGEI KOSTITSYN  17.9%
+             BOBBY BUTLER               MIKE FISHER               MARTIN ERAT          SERGEI KOSTITSYN   8.2%
+          GABRIEL BOURQUE             DAVID LEGWAND               CRAIG SMITH                       N/A   6.1%
+             COLIN WILSON             DAVID LEGWAND               CRAIG SMITH                       N/A   5.9%
+              MARTIN ERAT               MIKE FISHER              COLIN WILSON                       N/A   5.7%
+              TAYLOR BECK             DAVID LEGWAND          PATRIC HORNQVIST                       N/A   5.7%
+
+
+
+                     -----------------------
+                     --------- NYI ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+              MARK STREIT   LUBOMIR VISNOVSKY         46.25%
+           TRAVIS HAMONIC   ANDREW MACDONALD          22.24%
+                      N/A   MARK STREIT               20.46%
+              MARK STREIT   ANDREW MACDONALD           3.68%
+                      N/A   MARK STREIT                0.76%
+                      N/A   MARK STREIT                0.76%
+
+
+                      ------ Forwards ------
+
+             MATT MOULSON              JOHN TAVARES                BRAD BOYES                       N/A  45.4%
+               BRAD BOYES             FRANS NIELSEN              JOHN TAVARES              MATT MOULSON  19.8%
+              KYLE OKPOSO               JOSH BAILEY             FRANS NIELSEN                       N/A  11.7%
+          MICHAEL GRABNER              KEITH AUCOIN               KYLE OKPOSO                       N/A     6%
+            FRANS NIELSEN              KEITH AUCOIN               JOSH BAILEY                       N/A   2.4%
+              KYLE OKPOSO             FRANS NIELSEN              JOHN TAVARES              MATT MOULSON   1.3%
+
+
+
+                     -----------------------
+                     --------- NYR ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   MICHAEL DEL ZOTTO         25.83%
+        MICHAEL DEL ZOTTO   DAN GIRARDI               11.02%
+                      N/A   DAN GIRARDI               10.65%
+                      N/A   MICHAEL DEL ZOTTO          5.39%
+              DAN GIRARDI   RYAN MCDONAGH              5.14%
+           ANTON STRALMAN   RYAN MCDONAGH               4.9%
+
+
+                      ------ Forwards ------
+
+            RYAN CALLAHAN             BRAD RICHARDS              DEREK STEPAN              CARL HAGELIN  14.6%
+           MARIAN GABORIK             BRAD RICHARDS              DEREK STEPAN              TAYLOR PYATT   7.7%
+            RYAN CALLAHAN              DEREK STEPAN            MARIAN GABORIK                       N/A   6.7%
+            RYAN CALLAHAN              DEREK STEPAN           MATS ZUCCARELLO                 RICK NASH     6%
+            RYAN CALLAHAN             BRAD RICHARDS            MARIAN GABORIK                 RICK NASH   5.1%
+              BRIAN BOYLE           DERICK BRASSARD             BRAD RICHARDS               RYANE CLOWE     5%
+
+
+
+                     -----------------------
+                     --------- OTT ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+        PATRICK WIERCIOCH   SERGEI GONCHAR            26.97%
+           SERGEI GONCHAR   ERIK KARLSSON             24.92%
+           CHRIS PHILLIPS   ANDRE BENOIT              12.51%
+           CHRIS PHILLIPS   SERGEI GONCHAR             5.29%
+           CHRIS PHILLIPS   PATRICK WIERCIOCH          5.18%
+           SERGEI GONCHAR   ANDRE BENOIT               3.34%
+
+
+                      ------ Forwards ------
+
+    GUILLAUME LATENDRESSE               KYLE TURRIS         DANIEL ALFREDSSON                       N/A  17.5%
+           MILAN MICHALEK               KYLE TURRIS         DANIEL ALFREDSSON                       N/A  12.6%
+        JAKOB SILFVERBERG            MIKA ZIBANEJAD                CHRIS NEIL                       N/A   7.8%
+        DANIEL ALFREDSSON               KYLE TURRIS            COLIN GREENING                       N/A   7.3%
+        JAKOB SILFVERBERG             CORY CONACHER            MIKA ZIBANEJAD                       N/A   5.3%
+               CHRIS NEIL               KYLE TURRIS         DANIEL ALFREDSSON                       N/A   4.7%
+
+
+
+                     -----------------------
+                     --------- PHI ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   KIMMO TIMONEN             33.91%
+                      N/A   KIMMO TIMONEN             22.44%
+                      N/A   KIMMO TIMONEN               6.7%
+                      N/A   ERIK GUSTAFSSON            4.47%
+                      N/A   ERIK GUSTAFSSON            4.06%
+                      N/A   KURTIS FOSTER              3.96%
+
+
+                      ------ Forwards ------
+
+            JAKUB VORACEK            WAYNE SIMMONDS             CLAUDE GIROUX            SCOTT HARTNELL  34.9%
+            CLAUDE GIROUX            BRAYDEN SCHENN            WAYNE SIMMONDS             JAKUB VORACEK  12.7%
+                MATT READ            BRAYDEN SCHENN              DANNY BRIERE               SIMON GAGNE   7.5%
+            JAKUB VORACEK              DANNY BRIERE             CLAUDE GIROUX                TYE MCGINN   6.6%
+            CLAUDE GIROUX              DANNY BRIERE            WAYNE SIMMONDS             JAKUB VORACEK   6.2%
+              MIKE KNUBLE            BRAYDEN SCHENN            SEAN COUTURIER                 MATT READ   6.2%
+
+
+
+                     -----------------------
+                     --------- PHX ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+             KEITH YANDLE   OLIVER EKMANLARSSON       26.91%
+             KEITH YANDLE   DEREK MORRIS              16.52%
+           DAVID SCHLEMKO   OLIVER EKMANLARSSON       13.89%
+      OLIVER EKMANLARSSON   MICHAEL STONE              8.76%
+           DAVID RUNDBLAD   KEITH YANDLE               5.13%
+             KEITH YANDLE   DAVID SCHLEMKO             4.51%
+
+
+                      ------ Forwards ------
+
+           MIKKEL BOEDKER             MARTIN HANZAL              RADIM VRBATA                       N/A  14.4%
+               SHANE DOAN             MARTIN HANZAL              RADIM VRBATA                       N/A  11.8%
+             RAFFI TORRES          ANTOINE VERMETTE                SHANE DOAN                       N/A   8.1%
+           STEVE SULLIVAN             MARTIN HANZAL              RADIM VRBATA                       N/A   7.9%
+         LAURI KORPIKOSKI          ANTOINE VERMETTE                SHANE DOAN                       N/A   5.5%
+           STEVE SULLIVAN          ANTOINE VERMETTE                SHANE DOAN                       N/A   5.1%
+
+
+
+                     -----------------------
+                     --------- PIT ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   KRIS LETANG               19.39%
+              PAUL MARTIN   KRIS LETANG               18.74%
+                      N/A   PAUL MARTIN               10.62%
+            MATT NISKANEN   PAUL MARTIN                8.78%
+            MATT NISKANEN   KRIS LETANG                8.56%
+                      N/A   KRIS LETANG                 6.5%
+
+
+                      ------ Forwards ------
+
+             CHRIS KUNITZ             EVGENI MALKIN             SIDNEY CROSBY                JAMES NEAL  28.7%
+               JAMES NEAL             SIDNEY CROSBY              CHRIS KUNITZ                       N/A  17.2%
+             CHRIS KUNITZ             EVGENI MALKIN             JAROME IGINLA                JAMES NEAL   9.3%
+            PASCAL DUPUIS            BRANDON SUTTER             TYLER KENNEDY                       N/A   5.1%
+             BEAU BENNETT            BRANDON SUTTER             TYLER KENNEDY                       N/A     5%
+               JAMES NEAL             EVGENI MALKIN             SIDNEY CROSBY                       N/A   4.3%
+
+
+
+                     -----------------------
+                      --------- SJ ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   DAN BOYLE                 47.62%
+               MATT IRWIN   BRENT BURNS               12.03%
+       MARCEDOUARD VLASIC   JUSTIN BRAUN               4.45%
+               MATT IRWIN   JUSTIN BRAUN               4.35%
+             JASON DEMERS   JUSTIN BRAUN               3.54%
+                DAN BOYLE   BRENT BURNS                3.03%
+
+
+                      ------ Forwards ------
+
+             JOE THORNTON              JOE PAVELSKI           PATRICK MARLEAU             LOGAN COUTURE  54.4%
+              RYANE CLOWE               SCOTT GOMEZ             MARTIN HAVLAT                       N/A   7.9%
+              TJ GALIARDI               SCOTT GOMEZ             MARTIN HAVLAT                       N/A   5.2%
+            MARTIN HAVLAT               SCOTT GOMEZ             TOMMY WINGELS                       N/A   4.1%
+            LOGAN COUTURE           PATRICK MARLEAU              JOE THORNTON                       N/A   3.4%
+              RYANE CLOWE            JAMES SHEPPARD               SCOTT GOMEZ                       N/A   2.2%
+
+
+
+                     -----------------------
+                     --------- STL ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   ALEX PIETRANGELO          27.98%
+        KEVIN SHATTENKIRK   ALEX PIETRANGELO          14.64%
+                      N/A   KEVIN SHATTENKIRK         13.47%
+          JAY BOUWMEESTER   JORDAN LEOPOLD             6.99%
+                      N/A   KEVIN SHATTENKIRK          5.05%
+              WADE REDDEN   KEVIN SHATTENKIRK          4.79%
+
+
+                      ------ Forwards ------
+
+             DAVID BACKES           PATRIK BERGLUND                  TJ OSHIE              DAVID PERRON  25.3%
+            CHRIS STEWART             ANDY MCDONALD           ALEXANDER STEEN        VLADIMIR TARASENKO    25%
+             DAVID PERRON           PATRIK BERGLUND              DAVID BACKES                       N/A   5.6%
+             DAVID BACKES           ALEXANDER STEEN           PATRIK BERGLUND              DAVID PERRON   3.5%
+           MATT DAGOSTINI          VLADIMIR SOBOTKA             CHRIS STEWART                       N/A   3.1%
+             DAVID PERRON           PATRIK BERGLUND        VLADIMIR TARASENKO                       N/A   2.6%
+
+
+
+                     -----------------------
+                      --------- TB ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+            MATTHEW CARLE   VICTOR HEDMAN              21.1%
+                      N/A   SAMI SALO                 19.51%
+                      N/A   SAMI SALO                 11.17%
+                      N/A   MATTHEW CARLE              7.61%
+                      N/A   MATTHEW CARLE              6.87%
+            MATTHEW CARLE   MARCANDRE BERGERON         4.29%
+
+
+                      ------ Forwards ------
+
+          MARTIN ST LOUIS            STEVEN STAMKOS             TEDDY PURCELL               RYAN MALONE  23.4%
+            TEDDY PURCELL        VINCENT LECAVALIER            STEVEN STAMKOS           MARTIN ST LOUIS  18.9%
+           BENOIT POULIOT        VINCENT LECAVALIER             CORY CONACHER                       N/A  12.3%
+            TEDDY PURCELL              ALEX KILLORN            STEVEN STAMKOS           MARTIN ST LOUIS   5.4%
+            TEDDY PURCELL         ALEXANDER KILLORN            STEVEN STAMKOS           MARTIN ST LOUIS     5%
+            TEDDY PURCELL             CORY CONACHER            STEVEN STAMKOS                       N/A   4.7%
+
+
+
+                     -----------------------
+                     --------- TOR ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+             DION PHANEUF   CODY FRANSON               41.7%
+             DION PHANEUF   MICHAEL KOSTKA            17.65%
+             CODY FRANSON   JOHNMICHAEL LILES          8.25%
+        JOHNMICHAEL LILES   MICHAEL KOSTKA             8.25%
+          CARL GUNNARSSON   MICHAEL KOSTKA             5.34%
+        JOHNMICHAEL LILES   JAKE GARDINER              3.37%
+
+
+                      ------ Forwards ------
+
+       JAMES VAN RIEMSDYK               TYLER BOZAK               PHIL KESSEL                       N/A  42.5%
+         CLARKE MACARTHUR               NAZEM KADRI         MIKHAIL GRABOVSKI                       N/A  13.2%
+            JOFFREY LUPUL               TYLER BOZAK               PHIL KESSEL                       N/A   6.4%
+          NIKOLAI KULEMIN               NAZEM KADRI         MIKHAIL GRABOVSKI                       N/A   5.7%
+         CLARKE MACARTHUR               NAZEM KADRI              MATT FRATTIN                       N/A   3.7%
+       JAMES VAN RIEMSDYK         MIKHAIL GRABOVSKI          CLARKE MACARTHUR                       N/A   2.9%
+
+
+
+                     -----------------------
+                     --------- VAN ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   ALEXANDER EDLER           26.74%
+           JASON GARRISON   ALEXANDER EDLER           17.91%
+              DAN HAMHUIS   KEVIN BIEKSA              15.47%
+              DAN HAMHUIS   ALEXANDER EDLER            10.7%
+             KEVIN BIEKSA   JASON GARRISON             7.56%
+              DAN HAMHUIS   JASON GARRISON             7.44%
+
+
+                      ------ Forwards ------
+
+        ALEXANDRE BURROWS               RYAN KESLER              HENRIK SEDIN              DANIEL SEDIN  15.9%
+             DANIEL SEDIN              HENRIK SEDIN              ZACK KASSIAN                       N/A  10.2%
+            MASON RAYMOND          JORDAN SCHROEDER         ALEXANDRE BURROWS                       N/A   9.7%
+             DANIEL SEDIN              HENRIK SEDIN             JANNIK HANSEN                       N/A   9.4%
+             DANIEL SEDIN              HENRIK SEDIN         ALEXANDRE BURROWS                       N/A   7.1%
+        ALEXANDRE BURROWS              HENRIK SEDIN          JORDAN SCHROEDER                       N/A   6.7%
+
+
+
+                     -----------------------
+                     --------- WIN ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+         DUSTIN BYFUGLIEN   TOBIAS ENSTROM            22.46%
+                      N/A   DUSTIN BYFUGLIEN          11.55%
+         DUSTIN BYFUGLIEN   ZACH BOGOSIAN             10.91%
+           GRANT CLITSOME   DUSTIN BYFUGLIEN          10.66%
+              PAUL POSTMA   TOBIAS ENSTROM             6.47%
+                      N/A   DUSTIN BYFUGLIEN           6.09%
+
+
+                      ------ Forwards ------
+
+              ANDREW LADD              BRYAN LITTLE             BLAKE WHEELER                       N/A  28.6%
+             EVANDER KANE              OLLI JOKINEN             BLAKE WHEELER                       N/A    10%
+            BLAKE WHEELER              OLLI JOKINEN              BRYAN LITTLE               ANDREW LADD   7.7%
+             NIK ANTROPOV              OLLI JOKINEN             KYLE WELLWOOD              EVANDER KANE   6.5%
+              ANDREW LADD              NIK ANTROPOV              BRYAN LITTLE                       N/A     6%
+             EVANDER KANE      ALEXANDER BURMISTROV              OLLI JOKINEN                       N/A   5.2%
+
+
+
+                     -----------------------
+                     --------- WSH ---------
+                     -----------------------
+
+                     ------ Defenders ------
+
+                      N/A   MIKE GREEN                44.55%
+                      N/A   JOHN CARLSON              31.36%
+                      N/A   MIKE GREEN                 4.55%
+          TOMAS KUNDRATEK   JOHN CARLSON               3.41%
+                      N/A   JOHN CARLSON               1.93%
+              KARL ALZNER   TOMAS KUNDRATEK            1.36%
+
+
+                      ------ Forwards ------
+
+             TROY BROUWER              MIKE RIBEIRO         NICKLAS BACKSTROM             ALEX OVECHKIN  47.5%
+             TROY BROUWER         NICKLAS BACKSTROM          MARCUS JOHANSSON             ALEX OVECHKIN     5%
+                JOEL WARD              MIKE RIBEIRO         NICKLAS BACKSTROM             ALEX OVECHKIN   4.3%
+             TROY BROUWER              MIKE RIBEIRO         MATHIEU PERREAULT             ALEX OVECHKIN   3.9%
+            ALEX OVECHKIN              MIKE RIBEIRO                 JOEL WARD             WOJTEK WOLSKI     3%
+             TROY BROUWER         NICKLAS BACKSTROM         MATHIEU PERREAULT             ALEX OVECHKIN   2.6%
+
+
+
