@@ -1,0 +1,55 @@
+<h1>Listing players</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Goals</th>
+      <th>Assists</th>
+      <th>Rank</th>
+      <th>Nhl points</th>
+      <th>Nhl goals</th>
+      <th>Nhl assists</th>
+      <th>Nhl rank</th>
+      <th>Team</th>
+      <th>Last team</th>
+      <th>Power play</th>
+      <th>Pp last year</th>
+      <th>Position</th>
+      <th>Salary</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @players.each do |player| %>
+      <tr>
+        <td><%= player.name %></td>
+        <td><%= player.points %></td>
+        <td><%= player.goals %></td>
+        <td><%= player.assists %></td>
+        <td><%= player.rank %></td>
+        <td><%= player.nhl_points %></td>
+        <td><%= player.nhl_goals %></td>
+        <td><%= player.nhl_assists %></td>
+        <td><%= player.nhl_rank %></td>
+        <td><%= player.team %></td>
+        <td><%= player.last_team %></td>
+        <td><%= player.power_play %></td>
+        <td><%= player.pp_last_year %></td>
+        <td><%= player.position %></td>
+        <td><%= player.salary %></td>
+        <td><%= link_to 'Show', player %></td>
+        <td><%= link_to 'Edit', edit_player_path(player) %></td>
+        <td><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Player', new_player_path %>

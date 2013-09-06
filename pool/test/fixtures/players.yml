@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  points: 1
+  goals: 1
+  assists: 1
+  rank: 1
+  nhl_points: 1
+  nhl_goals: 1
+  nhl_assists: 1
+  nhl_rank: 1
+  team: MyString
+  last_team: MyString
+  power_play: MyString
+  pp_last_year: MyString
+  position: MyString
+  salary: 1
+
+two:
+  name: MyString
+  points: 1
+  goals: 1
+  assists: 1
+  rank: 1
+  nhl_points: 1
+  nhl_goals: 1
+  nhl_assists: 1
+  nhl_rank: 1
+  team: MyString
+  last_team: MyString
+  power_play: MyString
+  pp_last_year: MyString
+  position: MyString
+  salary: 1
