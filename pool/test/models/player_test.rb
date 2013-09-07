@@ -27,7 +27,7 @@ class PlayerTest < ActiveSupport::TestCase
   test "Some elements presence: true" do
     player = players(:Crosby)
 
-    #fields = ['name', 'points', 'goals', 'assists', 'rank', 'nhl_points', 'nhl_goals', 'nhl_assists', 'nhl_rank', 'position', 'salary']
+    #fields = ['name', 'points', 'goals', 'assists', 'rank', 'games', 'nhl_points', 'nhl_goals', 'nhl_assists', 'nhl_rank', 'position', 'salary']
     
     player.name = nil
     assert player.invalid?
@@ -39,7 +39,7 @@ class PlayerTest < ActiveSupport::TestCase
     player.position = 'D'
     assert player.valid?
 
-    fields = ['points', 'goals', 'assists', 'rank', 'nhl_points', 'nhl_goals', 'nhl_assists', 'nhl_rank', 'salary']
+    fields = ['points', 'goals', 'assists', 'rank', 'games', 'nhl_points', 'nhl_goals', 'nhl_assists', 'nhl_rank', 'salary']
     fields.each do |field|
       player.send("#{field}=", nil)
       assert player.invalid?
@@ -54,9 +54,9 @@ class PlayerTest < ActiveSupport::TestCase
 
     player.points = -1
     assert player.invalid?
-    player.points = 0
-    assert player.valid?
-    player.points = 1
+    #player.points = 0
+    #assert player.valid?
+    player.points =  1 #players(:Crosby).points
     assert player.valid?
     
     player.goals = -1
@@ -80,11 +80,19 @@ class PlayerTest < ActiveSupport::TestCase
     player.rank = 1
     assert player.valid?
     
+    player.games = -1
+    assert player.invalid?
+    player.games = 0
+    assert player.valid?
+    player.games = 1
+    assert player.valid?
+    
+    
     player.nhl_points = -1
     assert player.invalid?
-    player.nhl_points = 0
-    assert player.valid?
-    player.nhl_points = 1
+    #player.nhl_points = 0
+    #assert player.valid?
+    player.nhl_points = 1 #players(:Crosby).nhl_points
     assert player.valid?
     
     player.nhl_goals = -1

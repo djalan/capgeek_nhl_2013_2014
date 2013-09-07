@@ -3,21 +3,21 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Points</th>
-      <th>Goals</th>
-      <th>Assists</th>
-      <th>Rank</th>
-      <th>Nhl points</th>
-      <th>Nhl goals</th>
-      <th>Nhl assists</th>
-      <th>Nhl rank</th>
-      <th>Team</th>
-      <th>Last team</th>
-      <th>Power play</th>
-      <th>Pp last year</th>
-      <th>Position</th>
-      <th>Salary</th>
+      <th align='left'>Name</th>
+      <th align='center'>Points</th>
+      <th align='center'>Goals</th>
+      <th align='center'>Assists</th>
+      <th align='center'>Rank</th>
+      <th align='center'>Nhl points</th>
+      <th align='center'>Nhl goals</th>
+      <th align='center'>Nhl assists</th>
+      <th align='center'>Nhl rank</th>
+      <th align='center'>Team</th>
+      <th align='center'>Last team</th>
+      <th align='center'>Power play</th>
+      <th align='center'>Pp last year</th>
+      <th align='center'>Position</th>
+      <th align='center'>Salary</th>
       <th></th>
       <th></th>
       <th></th>
@@ -27,21 +27,21 @@
   <tbody>
     <% @players.each do |player| %>
       <tr>
-        <td><%= player.name %></td>
-        <td><%= player.points %></td>
-        <td><%= player.goals %></td>
-        <td><%= player.assists %></td>
-        <td><%= player.rank %></td>
-        <td><%= player.nhl_points %></td>
-        <td><%= player.nhl_goals %></td>
-        <td><%= player.nhl_assists %></td>
-        <td><%= player.nhl_rank %></td>
-        <td><%= player.team %></td>
-        <td><%= player.last_team %></td>
-        <td><%= player.power_play %></td>
-        <td><%= player.pp_last_year %></td>
-        <td><%= player.position %></td>
-        <td><%= player.salary %></td>
+        <td align='left'><%= player.name %></td>
+        <td align='center'><%= player.points %></td>
+        <td align='center'><%= player.goals %></td>
+        <td align='center'><%= player.assists %></td>
+        <td align='center'><%= player.rank %></td>
+        <td align='center'><%= player.nhl_points %></td>
+        <td align='center'><%= player.nhl_goals %></td>
+        <td align='center'><%= player.nhl_assists %></td>
+        <td align='center'><%= player.nhl_rank %></td>
+        <td align='center'><%= player.team %></td>
+        <td align='center'><%= player.last_team %></td>
+        <td align='center'><%= player.power_play %></td>
+        <td align='center'><%= player.pp_last_year %></td>
+        <td align='center'><%= player.position %></td>
+        <td align='center'><%= number_to_currency player.salary, precision: 0 %></td>
         <td><%= link_to 'Show', player %></td>
         <td><%= link_to 'Edit', edit_player_path(player) %></td>
         <td><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></td>
