@@ -1,2 +1,47 @@
-<h1>My poule</h1>
-<hr>
+<h1>Listing players</h1>
+
+<table>
+  <thead>
+    <tr>
+	  <th>Rank</th>
+      <th>Name</th>
+	  <th>Team</th>
+	  <th>Position</th>
+      <th>Games</th>
+      <th>Points</th>
+      <th>Goals</th>
+      <th>Assists</th>
+      <th>Salary</th>
+	  <th>Power play</th>
+      <th>Color</th>
+      <th>Drafted</th>
+	  <th>Drafted</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @players.each do |player| %>
+      <tr bgcolor='<%=player.color %>'>
+		<td><%= player.rank %></td>
+        <td><%= player.name %></td>
+		<td><%= player.team %></td>
+		<td><%= player.position %></td>
+        <td><%= player.games %></td>
+        <td><%= player.points %></td>
+        <td><%= player.nhl_goals %></td>
+        <td><%= player.nhl_assists %></td>
+        <td><%= number_to_currency player.salary, precision: 0 %></td>
+		<td><%= player.power_play %></td>
+		<td><%= player.color %></td>
+        <td><%= player.drafted %></td>		
+		<td>
+			<%= check_box_tag(:draft) %>
+			<%= label_tag %>
+		</td>
+        <td><%= link_to 'Edit', edit_player_path(player) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+

@@ -7,6 +7,26 @@ class HomeController < ApplicationController
     @players = Player.all
   end
 
+<<<<<<< Local Changes
+
+  # GET /home/1/edit
+  def edit
+  end
+  
+  
+  # PATCH/PUT /players/1
+  def update
+    respond_to do |format|
+      if @player.update(player_params)
+        format.html { redirect_to @player, notice: 'Player was successfully updated.' }
+      else
+        format.html { render action: 'edit' }
+      end
+    end
+  end
+  
+=======
+>>>>>>> External Changes
   
   private
     # Use callbacks to share common setup or constraints between actions.

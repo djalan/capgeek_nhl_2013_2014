@@ -1,5 +1,7 @@
 Pool::Application.routes.draw do
   get "home/index"
+  get 'home', to: 'home#index'
+  
   resources :players
 
   # The priority is based upon order of creation: first created -> highest priority.
