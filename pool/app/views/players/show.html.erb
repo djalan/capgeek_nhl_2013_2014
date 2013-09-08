@@ -6,6 +6,11 @@
 </p>
 
 <p>
+  <strong>Games:</strong>
+  <%= @player.games %>
+</p>
+
+<p>
   <strong>Points:</strong>
   <%= @player.points %>
 </p>
@@ -73,6 +78,16 @@
 <p>
   <strong>Salary:</strong>
   <%= @player.salary %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @player.color %>
+</p>
+
+<p>
+  <strong>Drafted:</strong>
+  <%= @player.drafted %>
 </p>
 
 <%= link_to 'Edit', edit_player_path(@player) %> |
