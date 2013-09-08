@@ -1,5 +1,7 @@
 <h1>Listing players</h1>
 
+<p><%= submit_tag "Edit checked" %></p>
+
 <table>
   <thead>
     <tr>
@@ -15,8 +17,8 @@
 	  <th>Power play</th>
       <th>Color</th>
       <th>Drafted</th>
-	  <th>Drafted</th>
       <th></th>
+	  <th></th>
     </tr>
   </thead>
 
@@ -35,11 +37,8 @@
 		<td><%= player.power_play %></td>
 		<td><%= player.color %></td>
         <td><%= player.drafted %></td>		
-		<td>
-			<%= check_box_tag(:draft) %>
-			<%= label_tag %>
-		</td>
         <td><%= link_to 'Edit', edit_player_path(player) %></td>
+		<td><%= check_box_tag "player_ids[]", player.id %>
       </tr>
     <% end %>
   </tbody>

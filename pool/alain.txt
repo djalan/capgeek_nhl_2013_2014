@@ -15,7 +15,3 @@ pp_last_year:string \
 position:string \
 salary:integer \
 
-
-
-
-<h1><%= link_to "My poule", index_home_path %></h1>

@@ -1,6 +1,7 @@
 class PlayersController < ApplicationController
-  before_action :set_player, only: [:show, :edit, :update, :destroy]
-
+  #before_action :set_player, only: [:show, :edit, :update, :destroy]
+  #before_action :set_player, only: [:show, :edit, :update, :destroy, :edit_individual, :update_individual]
+  
   # GET /players
   # GET /players.json
   def index
@@ -60,6 +61,23 @@ class PlayersController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  
+  def edit_individual
+    @players = Player.find(params[:player_ids])
+  end
+  
+  
+  def update_individual
+    @players = Player.update(params[:players].keys, params[:players].values).reject { |p| p.errors.empty? }
+    if @players.empty?
+      flash[:notice] = "Players updated"
+      redirect_to players_path
+    else
+      render :action => "edit_individual"
+    end
+  end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

@@ -6,7 +6,14 @@ class HomeController < ApplicationController
   def index
     @players = Player.all
   end
-
+  
+  
+  def edit
+  end
+  
+  
+  
+  
   
   private
     # Use callbacks to share common setup or constraints between actions.

@@ -1,8 +1,12 @@
 Pool::Application.routes.draw do
-  get "home/index"
   get 'home', to: 'home#index'
+  get "home/index"
+  get "home/edit"
   
-  resources :players
+  resources :players do
+    post  'edit_individual', on: :collection
+    put   'update_individual', on: :collection
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
