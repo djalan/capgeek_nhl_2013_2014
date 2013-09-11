@@ -2,6 +2,8 @@ Pool::Application.routes.draw do
   get 'home', to: 'home#index'
   get "home/index"
   get "home/edit"
+  get "home/pp"
+  
   
   resources :players do
     post  'edit_individual', on: :collection

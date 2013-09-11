@@ -22,7 +22,7 @@
 
   <tbody>
     <% @players.each do |player| %>
-      <tr bgcolor='<%=player.color %>'>
+      <tr style='background-color:<%=player.color%>'>
 		<td><%= player.rank %></td>
         <td><%= player.name %></td>
 		<td><%= player.team %></td>

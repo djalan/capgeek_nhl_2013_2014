@@ -1,0 +1,35 @@
+<h1>Power Play</h1>
+<br>
+<br>
+<% @teams.each do |team| %>
+		<h2><%= team %></h2>
+		<table>
+			<tr>
+				<th>F1</th>
+				<th>F2</th>
+				<th>F3</th>
+				<th>F4</th>
+				<th>D1</th>
+				<th>D2</th>
+				<th>D3</th>
+			</tr>
+			<tr>
+				<% ['F1', 'F2', 'F3', 'F4', 'D1', 'D2', 'D3'].each do |position| %>
+					<% p = player_info(team, position) %>
+					<% if p %>
+						<td style='width:160px;background-color:<%= p.color %>'>
+							<%= p.name %>
+							<br>
+							<%= number_to_currency(p.salary, precision: 0) %>
+						</td>
+					<% else %>
+						<td style='width:160px'></td>
+					<% end %>
+				<% end %>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+<% end %>	
+			
