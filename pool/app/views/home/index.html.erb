@@ -1,4 +1,8 @@
+<h1>Draft machine</h1>
+
 <p><%= submit_tag "Edit checked" %></p>
+
+<p> <%= @no_drafted %> drafted / 839</ps>
 
 <table>
   <thead>
@@ -13,7 +17,6 @@
       <th>Assists</th>
       <th>Salary</th>
 	  <th>Power play</th>
-      <th>Color</th>
       <th>Drafted</th>
       <th></th>
 	  <th></th>
@@ -33,7 +36,6 @@
         <td><%= player.nhl_assists %></td>
         <td><%= number_to_currency player.salary, precision: 0 %></td>
 		<td><%= player.power_play %></td>
-		<td><%= player.color %></td>
         <td><%= player.drafted %></td>		
         <td><%= link_to 'Edit', edit_player_path(player) %></td>
 		<td><%= check_box_tag "player_ids[]", player.id %>

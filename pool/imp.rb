@@ -34,3 +34,19 @@ def go
     end
   end
 end
+
+
+def import_pp_color
+  File.open(File.expand_path('pp.csv')) do |file|
+    file.each_line do |line|
+      l = line.split(';')
+      name = l[0]
+      pp = l[1]
+      color = l[2]
+      p = Player.where('name = ?', name).take
+      p.power_play = pp
+      p.color = color
+      p.save
+    end
+  end
+end

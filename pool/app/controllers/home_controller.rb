@@ -4,7 +4,8 @@ class HomeController < ApplicationController
 
   # GET /home
   def index
-    @players = Player.all
+    @no_drafted = Player.where('drafted = "yes"').count
+    @players = Player.where('drafted = "no"')
   end
   
   
