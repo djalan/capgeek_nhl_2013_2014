@@ -5,7 +5,10 @@ class HomeController < ApplicationController
   # GET /home
   def index
     @no_drafted = Player.where('drafted = "yes"').count
-    @players = Player.where('drafted = "no"')
+    @players = Player.where('drafted = "no"').order('points DESC')
+    
+    #@search = Player.new(params[:player])
+    #@players = Player.where('position = ?', @search.position)
   end
   
   
@@ -42,7 +45,7 @@ class HomeController < ApplicationController
   private
   
   def player_info(team, position)
-    Player.where("team = '#{team}' AND power_play = '#{position}'").take
+    Player.where("team = '#{team}' AND power_play = '#{position}' AND drafted != 'yes'").take
     #useless cuz not external   Player.where("team = ? AND power_play = ?", team, position).take
   end
   

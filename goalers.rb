@@ -7,7 +7,7 @@ require 'open-uri'
 
 
 
-url = "http://www.nhl.com/ice/playerstats.htm?fetchKey=20122ALLGAGAll&sort=wins&viewName=summary"
+url = "http://www.nhl.com/ice/playerstats.htm?fetchKey=20132ALLGAGAll&sort=wins&viewName=summary"
 file = "get/goalers.html"
 
 

@@ -15,3 +15,12 @@ pp_last_year:string \
 position:string \
 salary:integer \
 
+
+
+<p>
+	<%= form_for(@players, :url => {:action => 'index'}, :html => {:method => :get}) do |f| %>
+		<div>
+			Position: <%= f.text_field(:position) %><%= f.submit "Filter List" %>
+		</div>
+	<% end %>
+</p>

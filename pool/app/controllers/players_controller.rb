@@ -4,7 +4,9 @@ class PlayersController < ApplicationController
   # GET /players
   # GET /players.json
   def index
-    @players = Player.all
+    @players = Player.order('points DESC')
+    #@players = Player.where('position = "G" and salary = 0').order('points DESC')
+    #@players = Player.all
   end
 
   # GET /players/1

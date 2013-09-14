@@ -20,12 +20,14 @@
 				<th></th>
 			</tr>
 		</thead>
-
-	<% @players.each do |player| %>
-		<%= fields_for "players[]", player do |f| %>
-			<p><h3><%= player.name %></h3></p>
-			<%= render "fields", :f => f %>
-		<% end %>
-	<% end %>
+		
+		<tbody>
+			<% @players.each do |player| %>
+				<%= fields_for "players[]", player do |f| %>
+					<%= render "fields", :f => f %>
+				<% end %>
+			<% end %>
+		</tbody>
+	</table>
 	<p><%= submit_tag "Submit" %></p>
 <% end %>		
