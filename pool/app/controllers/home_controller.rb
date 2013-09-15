@@ -12,6 +12,28 @@ class HomeController < ApplicationController
   end
   
   
+  def all
+    @players = Player.where('drafted = "no"').order('points DESC')
+  end
+  
+  def skaters
+    @players = Player.where('drafted = "no" AND position != "G"').order('points DESC')
+  end
+  
+  def wingers
+    @players = Player.where('drafted = "no" AND (position = "L" OR position ="R")').order('points DESC')
+  end
+  
+  def centers
+    @players = Player.where('drafted = "no" AND position = "C"').order('points DESC')
+  end
+  
+  def defenders
+    @players = Player.where('drafted = "no" AND position = "D"').order('points DESC')
+  end
+    
+  
+  
   def edit
   end
   
@@ -23,6 +45,29 @@ class HomeController < ApplicationController
       'Islanders', 'Jets', 'Kings', 'Lightning', 'Mapleleafs', 'Oilers', 'Panthers', 'Penguins', \
       'Predators', 'Rangers', 'Redwings', 'Sabres', 'Senators', 'Sharks', 'Stars', 'Wild']
   end
+  
+  
+  def i
+    @players = Player.limit(10)
+  end
+  
+  
+  def test
+  end
+  
+  
+  # PATCH/PUT /players/1
+  # PATCH/PUT /players/1.json
+  def update
+    respond_to do |format|
+      if @player.update(player_params)
+        format.html { redirect_to home_i_path, notice: 'Player was successfully updated.' }
+      else
+        format.html { render action: 'edit' }
+      end
+    end
+  end
+  
 
 
   def edit_individual

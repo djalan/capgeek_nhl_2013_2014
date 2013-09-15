@@ -3,6 +3,13 @@ Pool::Application.routes.draw do
   get "home/index"
   get "home/edit"
   get "home/pp"
+  get 'home/i'
+  get 'home/test'
+  get 'home/all'
+  get 'home/skaters'
+  get 'home/wingers'
+  get 'home/centers'
+  get 'home/defenders'
   
   
   resources :players do
@@ -14,7 +21,7 @@ Pool::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#index'
+  root 'home#all'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
