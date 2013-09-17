@@ -32,11 +32,14 @@ class HomeController < ApplicationController
     @players = Player.where('drafted = "no" AND position = "D"').order('points DESC')
   end
     
+  def pplast
+  end
   
+  def standings
+  end
   
   def edit
   end
-  
   
   # GET home/pp
   def pp
@@ -53,6 +56,11 @@ class HomeController < ApplicationController
   
   
   def test
+  end
+  
+  def draft
+    @cap = 64300000
+    @alain = @ben = @mark = @math = @couv = 0
   end
   
   
@@ -94,7 +102,15 @@ class HomeController < ApplicationController
     #useless cuz not external   Player.where("team = ? AND power_play = ?", team, position).take
   end
   
-  helper_method :player_info
+  def player_drafted(person, position)
+    if position == 'W'
+      Player.where("drafted = '#{person}' AND (position = 'L' OR position ='R')")
+    else
+      Player.where("drafted = '#{person}' AND position = '#{position}'")
+    end
+  end
+  
+  helper_method :player_info, :player_drafted
 
 =begin
   private

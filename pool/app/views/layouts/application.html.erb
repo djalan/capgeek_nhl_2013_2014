@@ -16,16 +16,18 @@
 
 <div id='banner'>
 	<h2 style="color:blue">
-		My Pool
-		/ <%= link_to "All", home_all_path %>
+		<%= link_to "All", home_all_path %>
 		/ <%= link_to "Skaters", home_skaters_path %>
 		/ <%= link_to "Wingers", home_wingers_path %>
 		/ <%= link_to "Centers", home_centers_path %>
 		/ <%= link_to "Defenders", home_defenders_path %>
 		/ <%= link_to "Players", players_path %>
-		/ <%= link_to "Power Play", home_pp_path %>
-		/ <%= link_to "--i--", home_i_path %>
+		/ <%= link_to "Power Play", home_pp_path %> <%= link_to "+", home_pplast_path %>
+		/ <%= link_to "Standings", home_standings_path %>
+		/ <%= link_to "Draft", home_draft_path %>
+		/ <%= link_to "-i-", home_i_path %>
 		/ <%= link_to "Test", home_test_path %>
+		
 	</h2>
 	<hr>
 </div>

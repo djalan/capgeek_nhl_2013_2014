@@ -1,0 +1,109 @@
+<h3>Draft</h3>
+
+<br>
+<br>
+
+<% ['Alain', 'Ben', 'Mark', 'Math', 'Couv'].each do |person| %>
+	<h4><%= person %></h4>
+	<div id='draft'>
+		<table>
+			<tr>
+				<th colspan="2">Centers</th><th colspan="2">Wingers</th>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'C')[0] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[0] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'C')[1] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[1] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'C')[2] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[2] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'C')[3] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[3] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<th colspan="2">Defenders</th>
+				<% p = player_drafted(person, 'W')[4] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'D')[0] %>
+				<% @alain += p.salary if p %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[5] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'D')[1] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[6] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'D')[2] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'W')[7] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'D')[3] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<th colspan="2">Goalers</th>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'D')[4] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'G')[0] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+			<tr>
+				<% p = player_drafted(person, 'D')[5] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+				<% p = player_drafted(person, 'G')[1] %>
+				<td><%= p.name if p %></td>
+				<td><%= number_to_currency(p.salary, precision: 0) if p %></td>
+			</tr>
+		</table>
+	</div>
+	<h5>
+		Cap:   <%= number_to_currency @cap, precision: 0 %><br>
+		Minus: <%= number_to_currency @alain, precision: 0 %><br>
+		Left:  <%= number_to_currency (@cap - @alain), precision: 0 %>
+	</h5>
+	<br>
+	<br>
+<% end %>
+
+			

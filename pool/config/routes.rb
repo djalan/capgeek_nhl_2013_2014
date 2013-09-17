@@ -10,6 +10,9 @@ Pool::Application.routes.draw do
   get 'home/wingers'
   get 'home/centers'
   get 'home/defenders'
+  get 'home/pplast'
+  get 'home/standings'
+  get 'home/draft'
   
   
   resources :players do
