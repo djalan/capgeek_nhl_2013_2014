@@ -29,7 +29,7 @@
 			<td><%= link_to 'Edit', edit_player_path(player) %></td>
 			<td>
 				<%= form_for player do |f| %>
-					<%= f.hidden_field :drafted, value: 'yes' %>
+					<%= f.text_field :drafted %>
 					<%= f.submit "Click to draft" %>
 				<% end %>
 			</td>

@@ -60,10 +60,24 @@ class HomeController < ApplicationController
   
   def draft
     @cap = 64300000
-    @alain = @ben = @mark = @math = @couv = 0
+    @nbr_drafted = {}
+    @spent = {}
+    @left = {}
+    @average = {}
+    
+    ['Alain', 'Pat', 'Ben', 'Mark', 'Math', 'Couv'].each do |person|
+      @nbr_drafted[person]  = Player.where("drafted = '#{person}'").count
+      @spent[person]    = Player.select(:salary).where("drafted = '#{person}'").sum(:salary)
+      @left[person]     = @cap - @spent[person]
+      @average[person]  = @left[person] / (20 - @nbr_drafted[person])
+    end
   end
   
   
+  
+  
+  
+=begin  
   # PATCH/PUT /players/1
   # PATCH/PUT /players/1.json
   def update
@@ -75,9 +89,9 @@ class HomeController < ApplicationController
       end
     end
   end
-  
+=end
 
-
+=begin
   def edit_individual
     @players = Player.find(params[:player_ids])
   end
@@ -92,27 +106,9 @@ class HomeController < ApplicationController
       render :action => "edit_individual"
     end
   end  
- 
-  
-  
-  private
-  
-  def player_info(team, position)
-    Player.where("team = '#{team}' AND power_play = '#{position}' AND drafted != 'yes'").take
-    #useless cuz not external   Player.where("team = ? AND power_play = ?", team, position).take
-  end
-  
-  def player_drafted(person, position)
-    if position == 'W'
-      Player.where("drafted = '#{person}' AND (position = 'L' OR position ='R')")
-    else
-      Player.where("drafted = '#{person}' AND position = '#{position}'")
-    end
-  end
-  
-  helper_method :player_info, :player_drafted
+=end
 
-=begin
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_player
@@ -123,7 +119,9 @@ class HomeController < ApplicationController
     def player_params
       params.require(:player).permit(:name, :points, :goals, :assists, :rank, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :team, :last_team, :power_play, :pp_last_year, :position, :salary, :color, :games, :drafted)
     end
-=end
+    #def player_params
+      #params.require(:player).permit(:drafted)
+      #end
 
 
 end

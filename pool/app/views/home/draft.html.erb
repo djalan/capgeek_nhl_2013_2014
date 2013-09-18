@@ -99,8 +99,9 @@
 	</div>
 	<h5>
 		Cap:   <%= number_to_currency @cap, precision: 0 %><br>
-		Minus: <%= number_to_currency @alain, precision: 0 %><br>
-		Left:  <%= number_to_currency (@cap - @alain), precision: 0 %>
+		Minus: <%= number_to_currency @spent[person], precision: 0 %> (<%= number_to_currency @nbr_drafted[person], precision: 0 %>)<br>
+		Left:  <%= number_to_currency @left[person], precision: 0 %><br>
+		Avg:   <%= number_to_currency @average[person], precision: 0 %>
 	</h5>
 	<br>
 	<br>
