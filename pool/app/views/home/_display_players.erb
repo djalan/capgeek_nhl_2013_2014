@@ -29,8 +29,8 @@
 			<td><%= link_to 'Edit', edit_player_path(player) %></td>
 			<td>
 				<%= form_for player do |f| %>
-					<%= f.text_field :drafted %>
-					<%= f.submit "Click to draft" %>
+					<%= f.text_field :drafted, class: 'whose_pick'%>
+					<%= f.submit "Draft" %>
 				<% end %>
 			</td>
 		</tr>

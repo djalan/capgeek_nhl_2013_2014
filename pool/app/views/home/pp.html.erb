@@ -1,3 +1,4 @@
+<div id='powerplay'>
 <h1>Power Play</h1>
 <br>
 <br>
@@ -15,10 +16,9 @@
 			</tr>
 			<tr>
 				<% ['F1', 'F2', 'F3', 'F4', 'D1', 'D2', 'D3'].each do |position| %>
-					<% p = player_info(team, position) %>
-					<% if p %>
+					<% if p = player_info(team, position) %>
 						<td style='width:160px;background-color:<%= p.color %>'>
-							<%= p.name %> (<%= p.position %>)
+							<%= link_to p.name, edit_player_path(p) %> (<%= p.position %>)
 							<br>
 							<%= number_to_currency(p.salary, precision: 0) %>
 							<br>
@@ -35,5 +35,5 @@
 		<br>
 		<br>
 		<br>
-<% end %>	
-			
+<% end %>
+</div>

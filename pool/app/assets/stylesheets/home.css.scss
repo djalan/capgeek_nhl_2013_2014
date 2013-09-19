@@ -30,4 +30,19 @@
 			width:	100px;
 		}
 	}
+	
+	.whose_pick{
+		width: 40px;
+	}
+	
+	
+	#powerplay {
+		a {
+			color: black;
+			&.link { color:black; }
+			&.visited { color:black; }
+			&.hover { color:black; }
+			&.active { color:black; }	
+		}
+	}
 }
