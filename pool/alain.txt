@@ -37,3 +37,6 @@ salary:integer \
 					<%= select_tag(:drafted, options_for_select([['Alain', 'Alain'], ['Pat', 'Pat'], \
 						['Ben', 'Ben'], ['Mark', 'Mark'], ['Couv', 'Couv'], ['Math', 'Math']])) %>
 					<%= f.submit "Click to draft", data: { confirm: 'Are you sure?' } %>
+					
+					
+					<%= render partial: 'players/_draft_table', :locals => {person: person, position: 'C', index: 0}%>

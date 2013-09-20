@@ -1,0 +1,12 @@
+.even {
+  background: lightgrey; }
+
+.odd {
+  background: white; }
+
+th, tr, td {
+  border: 1px solid black;
+  text-align: center; }
+
+table {
+  border-collapse: collapse; }

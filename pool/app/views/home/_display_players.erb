@@ -17,7 +17,7 @@
 	</thead>
 	<tbody>
 		<% @players.each do |player| %>
-		<tr style='background-color:<%=player.color%>'>
+		<tr style='background-color:<%=player.color%>' id='<%= player.id %>'>
 			<td><%= player.name %></td>
 			<td><%= player.team %></td>
 			<td><%= player.position %></td>

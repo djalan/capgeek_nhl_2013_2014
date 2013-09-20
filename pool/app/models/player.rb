@@ -6,13 +6,13 @@ class Player < ActiveRecord::Base
 
 
 
-  validates :name, :points, :goals, :assists, :rank, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :position, :salary,
+  validates :name, :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :position, :salary,
   presence: true
 
-  validates :points, :goals, :assists, :rank, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :salary,
+  validates :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :salary,
   numericality: {greater_than_or_equal_to: 0}
 
-  validates :rank, :nhl_rank,
+  validates :nhl_rank,
   uniqueness: true
 
   validates :position,

@@ -1,0 +1,26 @@
+.home #draft table {
+  width: 800px;
+  border-collapse: collapse; }
+.home #draft tr, .home #draft td, .home #draft th {
+  border: 1px solid black;
+  text-align: center;
+  height: 20px; }
+.home #draft th {
+  text-align: center;
+  background-color: lightgrey; }
+.home #draft td {
+  width: 25%; }
+.home #cap_things table {
+  width: 100px; }
+.home .whose_pick {
+  width: 40px; }
+.home #powerplay a {
+  color: black; }
+  .home #powerplay a.link {
+    color: black; }
+  .home #powerplay a.visited {
+    color: black; }
+  .home #powerplay a.hover {
+    color: black; }
+  .home #powerplay a.active {
+    color: black; }
