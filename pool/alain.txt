@@ -26,8 +26,6 @@ salary:integer \
 </p>
 
 
-
-
 					<%= form_for @player do |f| %>
 					<%= t.hidden_field :drafted, value: 'yes' %>
 					<%= t.submit "Click to draft" %>

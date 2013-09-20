@@ -77,11 +77,11 @@
   </div>
   <div class="field">
     <%= f.label :color %><br>
-    <%= f.text_field :color %>
+    <%= f.select :color, Player::COLORS %>
   </div>
   <div class="field">
     <%= f.label :drafted %><br>
-    <%= f.text_field :drafted %>
+    <%= f.select :drafted, Player::POOLERS %>
   </div>
   <div class="actions">
     <%= f.submit %>

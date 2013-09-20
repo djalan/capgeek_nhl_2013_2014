@@ -3,7 +3,7 @@ Total players: <%= @total_players %><br>
 Total drafted: <%= @total_drafted %><br>
 <br>
 
-<% ['Alain', 'Ben', 'Mark', 'Math', 'Couv'].each do |person| %>
+<% (Player::POOLERS - ['no', 'yes']).each do |person| %>
 	<h4><%= person %></h4>
 	<div id='draft'>
 		<table>

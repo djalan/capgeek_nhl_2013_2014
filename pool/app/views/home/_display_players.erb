@@ -8,6 +8,7 @@
 			<th>Points</th>
 			<th>Goals</th>
 			<th>Assists</th>
+			<th>Last</th>
 			<th>Salary</th>
 			<th>Power play</th>
 			<th>Edit</th>
@@ -24,12 +25,13 @@
 			<td><%= player.points %></td>
 			<td><%= player.nhl_goals %></td>
 			<td><%= player.nhl_assists %></td>
+			<td><i><%= player.last_team %></i></td>
 			<td><%= number_to_currency player.salary, precision: 0 %></td>
 			<td><%= player.power_play %></td>
 			<td><%= link_to 'Edit', edit_player_path(player) %></td>
 			<td>
 				<%= form_for player do |f| %>
-					<%= f.text_field :drafted, class: 'whose_pick'%>
+					<%= f.select :drafted, Player::POOLERS %>
 					<%= f.submit "Draft" %>
 				<% end %>
 			</td>
