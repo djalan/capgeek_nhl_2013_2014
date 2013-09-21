@@ -11,23 +11,48 @@ class HomeController < ApplicationController
   
   
   def all
-    @players = Player.where('drafted = "no"').order('points DESC')
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND salary <= ?', params[:salary_max]).order('points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no"').order('points DESC')
+    end
   end
   
   def skaters
-    @players = Player.where('drafted = "no" AND position != "G"').order('points DESC')
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position != "G" AND salary <= ?', params[:salary_max]).order('points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position != "G"').order('points DESC')
+    end
   end
   
   def wingers
-    @players = Player.where('drafted = "no" AND (position = "L" OR position ="R")').order('points DESC')
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND (position = "L" OR position ="R") AND salary <= ?', params[:salary_max]).order('points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND (position = "L" OR position ="R")').order('points DESC')
+    end
   end
   
   def centers
-    @players = Player.where('drafted = "no" AND position = "C"').order('points DESC')
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position = "C" AND salary <= ?', params[:salary_max]).order('points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position = "C"').order('points DESC')
+    end
   end
   
   def defenders
-    @players = Player.where('drafted = "no" AND position = "D"').order('points DESC')
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position = "D" AND salary <= ?', params[:salary_max]).order('points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position = "D"').order('points DESC')
+    end
   end
     
   def pplast

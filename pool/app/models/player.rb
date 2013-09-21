@@ -21,8 +21,7 @@ class Player < ActiveRecord::Base
   validates :power_play, :pp_last_year,
   allow_blank: true, format: { with: /F1|F2|F3|F4|D1|D2|D3/i, message: 'must be F1 F2 F3 F4 D1 D2' }
     
-  validates :color,
-  inclusion: COLORS
+  #validates :color, inclusion: COLORS
     
   validates :drafted,
   inclusion: POOLERS

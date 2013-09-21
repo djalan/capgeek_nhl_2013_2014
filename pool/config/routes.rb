@@ -1,19 +1,28 @@
 Pool::Application.routes.draw do
-  get 'home', to: 'home#index'
-  get "home/index"
-  get "home/edit"
-  get "home/pp"
-  get 'home/i'
-  get 'home/test'
-  get 'home/all'
-  get 'home/skaters'
-  get 'home/wingers'
-  get 'home/centers'
-  get 'home/defenders'
-  get 'home/pplast'
-  get 'home/standings'
-  get 'home/draft'
-  
+
+  controller :home do
+    get 'home', to: 'home#all'
+    get "home/index"
+    get "home/edit"
+    get "home/pp"
+    get 'home/i'
+    get 'home/test'
+    
+    get   'home/all'
+    post  'home/all'
+    get   'home/skaters'
+    post  'home/skaters'
+    get   'home/wingers'
+    post  'home/wingers'
+    get   'home/centers'
+    post  'home/centers'
+    get   'home/defenders'
+    post  'home/defenders'
+    
+    get 'home/pplast'
+    get 'home/standings'
+    get 'home/draft'
+  end
   
   resources :players do
     post  'edit_individual', on: :collection

@@ -17,6 +17,7 @@ Stewart
 Lunqvist
 byfuglien
 Kronwall
+Zotto
 
 Faulk
 Muzzin
