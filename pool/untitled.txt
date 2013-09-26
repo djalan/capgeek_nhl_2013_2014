@@ -1,21 +1,21 @@
 Letang
 Subban
-Giroux
-Kunitz
+Giroux (W)
+Kunitz (W)
 Niemi
 Tlusty (1.6 - 1.6)
 Holtby
-Couture
+Couture (C)
 Schultz
-Duchesne
-Moulson
-Voracek
-Parenteau
-Laad
-Pacioretty
+Duchesne (C)
+Moulson (W)
+Voracek (W)
+Laad (W)
+Pacioretty (W)
 Vrbata
 Stewart
 Backes
+Parenteau
 
 =============================
 3.215		6.43		9.645
@@ -29,17 +29,17 @@ Muzzin (0.9 - 2.2)
 Barrie (0.9 - 2.2)
 Faulk  (Ryan Murphy?)   ***
 Read   (0.9 - 2.2)
-johansson marcus (ovechkin backstrom)   
-jussi jokinen (malkin neal)
+johansson marcus 2.0 (ovechkin backstrom)   
+jussi jokinen 2.1 (malkin neal)
 holtby
-spurgeon
-zotto
-jannik hansen
+spurgeon 2.667
+zotto 2.55
+leddy 2.7
+gallagher (0.870 - 2.33)
 
 Muzzin   0.9
 Zotto    2.55
 Spurgeon 2.667     3.528
-Leddy    2.7
 
 
 Backstrom
