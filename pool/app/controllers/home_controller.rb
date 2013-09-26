@@ -54,6 +54,17 @@ class HomeController < ApplicationController
       @players = Player.where('drafted = "no" AND position = "D"').order('points DESC')
     end
   end
+  
+  def rank
+    @list = Player.where('rank != "nil"').order('rank ASC')
+  end
+  
+  def edit_rank
+  end
+  
+  def update_rank
+    
+  end
     
   def pplast
   end

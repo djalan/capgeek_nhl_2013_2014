@@ -24,6 +24,7 @@ Pool::Application.routes.draw do
     get 'home/draft'
   end
   
+  
   resources :players do
     post  'edit_individual', on: :collection
     put   'update_individual', on: :collection

@@ -3,23 +3,44 @@ Subban
 Giroux
 Kunitz
 Niemi
-Tlusty
+Tlusty (1.6 - 1.6)
 Holtby
 Couture
 Schultz
 Duchesne
 Moulson
+Voracek
 Parenteau
 Laad
+Pacioretty
 Vrbata
 Stewart
+Backes
 
-Lunqvist
+=============================
+3.215		6.43		9.645
+=============================
+
 byfuglien
 Kronwall
 Zotto
 
-Faulk
-Muzzin
-Read
-Barrie
+Muzzin (0.9 - 2.2)
+Barrie (0.9 - 2.2)
+Faulk  (Ryan Murphy?)   ***
+Read   (0.9 - 2.2)
+johansson marcus (ovechkin backstrom)   
+jussi jokinen (malkin neal)
+holtby
+spurgeon
+zotto
+jannik hansen
+
+Muzzin   0.9
+Zotto    2.55
+Spurgeon 2.667     3.528
+Leddy    2.7
+
+
+Backstrom
+
