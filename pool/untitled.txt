@@ -3,44 +3,46 @@ Subban
 Giroux (W)
 Kunitz (W)
 Niemi
-Tlusty (1.6 - 1.6)
-Holtby
-Couture (C)
+Tlusty (1.6 - 1.6
+Stepan (C)
 Schultz
+Couture (C)
 Duchesne (C)
 Moulson (W)
 Voracek (W)
+Franson
 Laad (W)
 Pacioretty (W)
-Vrbata
-Stewart
-Backes
-Parenteau
+Brouwer (W)
+Stewart (W)
+Backes (W)
+Parenteau (W)
+Vrbata (W)
+Williams (W)
+Hodgson (C)
+
 
 =============================
 3.215		6.43		9.645
 =============================
 
 byfuglien
+burns
 Kronwall
-Zotto
+
 
 Muzzin (0.9 - 2.2)
 Barrie (0.9 - 2.2)
 Faulk  (Ryan Murphy?)   ***
-Read   (0.9 - 2.2)
-johansson marcus 2.0 (ovechkin backstrom)   
+Read   (0.9 - 2.2)  
 jussi jokinen 2.1 (malkin neal)
-holtby
-spurgeon 2.667
+
 zotto 2.55
 leddy 2.7
 gallagher (0.870 - 2.33)
 
-Muzzin   0.9
-Zotto    2.55
-Spurgeon 2.667     3.528
 
 
+
+spurgeon 2.667 
 Backstrom
-
