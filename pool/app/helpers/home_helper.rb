@@ -3,7 +3,7 @@ module HomeHelper
   
   
   def player_info(team, position)
-    Player.where("team = '#{team}' AND power_play = '#{position}' AND drafted != 'yes'").take
+    Player.where("team = '#{team}' AND power_play = '#{position}' AND drafted = 'no'").take
     #useless cuz not external   Player.where("team = ? AND power_play = ?", team, position).take
   end
   

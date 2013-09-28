@@ -1,6 +1,6 @@
 class Player < ActiveRecord::Base
   
-  POOLERS = ['Alain', 'Ben', 'Couv', 'Mark', 'Math', 'Pat', 'no', 'yes']
+  POOLERS = ['Alain', 'Ben', 'Couv', 'Mark', 'no', 'yes']
   
   COLORS = ['green', 'yellow', 'orange', 'red', 'cyan', 'white']
 

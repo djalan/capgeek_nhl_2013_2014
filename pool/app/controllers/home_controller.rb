@@ -106,7 +106,11 @@ class HomeController < ApplicationController
       @nbr_drafted[person]  = Player.where("drafted = '#{person}'").count
       @spent[person]    = Player.select(:salary).where("drafted = '#{person}'").sum(:salary)
       @left[person]     = @cap - @spent[person]
-      @average[person]  = @left[person] / (20 - @nbr_drafted[person])
+      if @nbr_drafted[person] == 20
+        @average[person] = @left[person]
+      else
+        @average[person]  = @left[person] / (20 - @nbr_drafted[person])
+      end
     end
   end
   
