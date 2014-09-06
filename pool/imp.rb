@@ -5,6 +5,8 @@
 require 'fileutils'
 
 
+year = '2014-2015'
+
 
 def go
   File.open(File.expand_path('nhl_to_rails.csv')) do |file|
@@ -28,6 +30,7 @@ def go
       p.rank = l[13]
       p.drafted = false
       p.color = 'white'
+      p.year = year
 
       printf("%-25s %s\n", p.name, p.valid?) unless p.valid?
       p.save
@@ -81,9 +84,10 @@ def goalers
       p.salary = 0
       p.drafted = 'no'
       p.color = 'white'
+      p.year = year
 
       #printf("%-25s %s\n", p.name, p.valid?)
-      #printf("%-25s %s\n", p.name, p.valid?) unless p.valid?
+      printf("%-25s %s\n", p.name, p.valid?) unless p.valid?
       p.save
     end
   end

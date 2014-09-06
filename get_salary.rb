@@ -14,7 +14,7 @@ teams = %W{ducks bruins sabres flames hurricanes blackhawks avalanche bluejacket
 
 teams.each do |team|
 	url = "#{website_url}/#{team}"
-	save_file = "get/#{team}.html"
+	save_file = "get/capgeek_#{team}.html"
 	File::open(save_file, 'w') do |f|
 		f << open(url).read
 	end

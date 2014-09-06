@@ -1,0 +1,31 @@
+rank;name;old_team;gp;gs;wins;losses;ot;so;our_wins;our_so;our_ot;our_total
+1;Semyon Varlamov;COL;63;60;41;14;6;2;123;10;6;139
+2;Marc-Andre Fleury;PIT;64;64;39;18;5;5;117;25;5;147
+3;Antti Niemi;SJS;64;64;39;17;7;4;117;20;7;144
+4;Ben Bishop;TBL;63;63;37;14;7;5;111;25;7;143
+5;Tuukka Rask;BOS;58;58;36;15;6;7;108;35;6;149
+6;Carey Price;MTL;59;59;34;20;5;6;102;30;5;137
+7;Henrik Lundqvist;NYR;63;62;33;24;5;5;99;25;5;129
+8;Kari Lehtonen;DAL;65;64;33;20;10;5;99;25;10;134
+9;Steve Mason;PHI;61;60;33;18;7;4;99;20;7;126
+10;Corey Crawford;CHI;59;56;32;16;10;2;96;10;10;116
+11;Sergei Bobrovsky;CBJ;58;58;32;20;5;5;96;25;5;126
+12;Jaroslav Halak;STL, WSH;52;50;29;13;7;5;87;25;7;119
+13;Jonas Hiller;ANA;50;50;29;13;7;5;87;25;7;119
+14;Jonathan Quick;LAK;49;49;27;17;4;6;81;30;4;115
+15;Mike Smith;PHX;62;61;27;21;10;3;81;15;10;106
+16;Jonathan Bernier;TOR;55;49;26;19;7;1;78;5;7;90
+17;Roberto Luongo;VAN, FLA;56;56;25;23;7;4;75;20;7;102
+18;Ryan Miller;BUF, STL;59;59;25;30;4;1;75;5;4;84
+19;Craig Anderson;OTT;53;52;25;16;8;4;75;20;8;103
+20;Braden Holtby;WSH;48;45;23;15;4;4;69;20;4;93
+21;Ondrej Pavelec;WPG;57;57;22;26;7;1;66;5;7;78
+22;Jimmy Howard;DET;51;50;21;19;11;2;63;10;11;84
+23;Frederik Andersen;ANA;28;24;20;5;0;0;60;0;0;60
+24;Carter Hutton;NSH;40;34;20;11;4;1;60;5;4;69
+25;Anton Khudobin;CAR;36;34;19;14;1;1;57;5;1;63
+26;Martin Brodeur;NJD;39;39;19;14;6;3;57;15;6;78
+27;Josh Harding;MIN;29;26;18;7;3;3;54;15;3;72
+28;Brian Elliott;STL;31;25;18;6;2;4;54;20;2;76
+29;Tim Thomas;FLA, DAL;48;46;18;24;4;0;54;0;4;58
+30;Chad Johnson;BOS;27;23;17;4;3;2;51;10;3;64

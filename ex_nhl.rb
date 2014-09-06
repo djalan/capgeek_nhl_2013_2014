@@ -5,7 +5,7 @@
 require 'nokogiri'
 
 
-LAST = 28
+LAST = 30
 
 DEFENDERS_GOAL_VALUE = 3
 DEFENDERS_ASSIST_VALUE = 2
@@ -17,7 +17,7 @@ FORWARDS_ASSIST_VALUE = 1
 puts "rank;name;old_team;pos;gp;goals;assists;points;f_goals;f_assists;f_points"
 
 for i in (1..LAST)
-	html = Nokogiri::HTML(File.open(File.expand_path("get/#{i}.html")))
+	html = Nokogiri::HTML(File.open(File.expand_path("get/nhl_#{i}.html")))
 	table = html.css('tbody tr')
 	table.each do |player|
 		cols = player.css('td')

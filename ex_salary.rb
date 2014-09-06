@@ -10,8 +10,8 @@ teams = %W{ducks bruins sabres flames hurricanes blackhawks avalanche bluejacket
 
 
 teams.each do |team|
-	html = Nokogiri::HTML(File.open(File.expand_path("get/#{team}.html")))
-	#html = Nokogiri::HTML(File.open(File.expand_path("get/bruins.html")))
+	html = Nokogiri::HTML(File.open(File.expand_path("get/capgeek_#{team}.html")))
+	#html = Nokogiri::HTML(File.open(File.expand_path("get/capgeek_bruins.html")))
 	html_table = html.css("tbody tr")
 	category = 'None yet'
 	html_table.each do |row|
@@ -23,13 +23,13 @@ teams.each do |team|
 				name = /^(?:[A-Z]{1} )?(?<last>[[:print:]]*),[[:space:]]*(?<first>[[:print:]]*) .{1}\n?.*$/.match(player.text)
 				unless name.nil? #td class = 'player' used for titles in table
 					cap = row.at_css('span[class = "cap_hit"]')
-					cap_hit = if cap.nil? then 'Not signed'
-						  else cap.text end
+					cap_hit = if cap.nil? then 'Not signed' else cap.text end
 					puts "#{name['first']} #{name['last']};#{cap_hit};#{team.capitalize};#{category}"
 				end
 			end
 		end
 	end
+  #break
 end
 
 

@@ -6,9 +6,9 @@ require 'nokogiri'
 require 'open-uri'
 
 
-
-url = "http://www.nhl.com/ice/playerstats.htm?fetchKey=20132ALLGAGAll&sort=wins&viewName=summary"
-file = "get/goalers.html"
+year=2014
+url = "http://www.nhl.com/ice/playerstats.htm?fetchKey=#{year}2ALLGAGAll&sort=wins&viewName=summary"
+file = "get/nhl_goalers.html"
 
 
 
