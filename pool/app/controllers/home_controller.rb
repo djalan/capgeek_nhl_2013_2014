@@ -96,20 +96,30 @@ class HomeController < ApplicationController
     @total_players = Player.count
     @total_drafted = Player.where("drafted != 'no'").count
     
-    @cap = 64300000
+    case @year
+    when '2013-2014'
+      @cap = 64_300_000
+      @poolers = ['Alain', 'Ben', 'Mark', 'Couv']
+      @max_to_draft = 20
+    when '2014-2015'
+      @cap = 69_000_000
+      @poolers = ['Alain', 'Ben', 'Mark', 'Math']
+      @max_to_draft = 20
+    end
+    
     @nbr_drafted = {}
     @spent = {}
     @left = {}
     @average = {}
     
-    ['Alain', 'Pat', 'Ben', 'Mark', 'Math', 'Couv'].each do |person|
+    @poolers.each do |person|
       @nbr_drafted[person]  = Player.where("drafted = '#{person}'").count
       @spent[person]    = Player.select(:salary).where("drafted = '#{person}'").sum(:salary)
       @left[person]     = @cap - @spent[person]
-      if @nbr_drafted[person] == 20
+      if @nbr_drafted[person] == @max_to_draft
         @average[person] = @left[person]
       else
-        @average[person]  = @left[person] / (20 - @nbr_drafted[person])
+        @average[person]  = @left[person] / (@max_to_draft - @nbr_drafted[person])
       end
     end
   end

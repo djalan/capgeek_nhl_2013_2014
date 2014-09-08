@@ -8,6 +8,12 @@ require 'fileutils'
 year = '2014-2015'
 
 
+
+
+
+# 3;Alex Ovechkin;Capitals;WSH;L;48;32;24;56;64;24;88;9538462;1
+# 38;P.K. Subban;Canadiens;MTL;D;42;11;27;38;33;54;87;2875000;2
+
 def go
   File.open(File.expand_path('nhl_to_rails.csv')) do |file|
     file.each_line do |line|
@@ -39,6 +45,15 @@ def go
 end
 
 
+
+
+
+
+
+
+# Patric Hornqvist;F2;
+# Derek Stepan;F2;green
+
 def import_pp_color
   File.open(File.expand_path('nhl-1.csv')) do |file|
     file.each_line do |line|
@@ -55,6 +70,12 @@ def import_pp_color
 end
 
 
+
+
+
+
+# rank;name;old_team;gp;gs;wins;losses;ot;so;our_wins;our_so;our_ot;our_total
+# 1;Henrik Lundqvist;NYR;43;43;24;16;3;2;72;10;3;85
 
 def goalers
   File.open(File.expand_path('goalers.csv')) do |file|

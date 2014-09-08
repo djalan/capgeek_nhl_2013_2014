@@ -1,10 +1,10 @@
 class PlayersController < ApplicationController
   before_action :set_player, only: [:show, :edit, :update, :destroy]
-  
+    
   # GET /players
   # GET /players.json
   def index
-    @players = Player.order('points DESC')
+    @players = Player.where('season = ?', @year).order('points DESC')
     #@players = Player.where('position = "G" and salary = 0').order('points DESC')
     #@players = Player.all
   end
@@ -88,6 +88,7 @@ class PlayersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def player_params
-      params.require(:player).permit(:name, :points, :goals, :assists, :rank, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :team, :last_team, :power_play, :pp_last_year, :position, :salary, :color, :games, :drafted)
+      params.require(:player).permit(:name, :points, :goals, :assists, :rank, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :team, :last_team, :power_play, :pp_last_year, :position, :salary, :color, :games, :drafted, :season)
     end
+    
 end
