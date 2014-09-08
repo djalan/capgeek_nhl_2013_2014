@@ -83,6 +83,10 @@
     <%= f.label :drafted %><br>
     <%= f.select :drafted, Player::POOLERS %>
   </div>
+  <div class="field">
+    <%= f.label :season %><br>
+    <%= f.text_field :season %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

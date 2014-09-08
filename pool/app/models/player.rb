@@ -12,8 +12,8 @@ class Player < ActiveRecord::Base
   validates :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :salary,
   numericality: {greater_than_or_equal_to: 0}
 
-  validates :nhl_rank,
-  uniqueness: true
+  #validates :nhl_rank,
+  #uniqueness: true
 
   validates :position,
   format: { with: /D|C|L|R|G/i, message: 'must be D C L R G' }
