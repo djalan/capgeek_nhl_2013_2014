@@ -5,17 +5,12 @@
 require 'fileutils'
 
 
-year = '2014-2015'
-
-
-
-
 
 # 3;Alex Ovechkin;Capitals;WSH;L;48;32;24;56;64;24;88;9538462;1
 # 38;P.K. Subban;Canadiens;MTL;D;42;11;27;38;33;54;87;2875000;2
 
 def go
-  File.open(File.expand_path('nhl_to_rails.csv')) do |file|
+  File.open(File.expand_path('imp.csv')) do |file|
     file.each_line do |line|
       l = line.split(';')
       p = Player.new
@@ -34,9 +29,9 @@ def go
       p.points = l[11]
       p.salary = l[12]
       p.rank = l[13]
-      p.drafted = false
+      p.drafted = 'no'
       p.color = 'white'
-      p.year = year
+      p.season = '2014-2015'
 
       printf("%-25s %s\n", p.name, p.valid?) unless p.valid?
       p.save

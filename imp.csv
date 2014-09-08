@@ -396,15 +396,15 @@
 303;Matt Calvert;Bluejackets;CBJ;L;56;9;15;24;18;15;33;987500;396
 304;Matt Beleskey;Ducks;ANA;L;55;9;15;24;18;15;33;1350000;397
 305;Riley Sheahan;Redwings;DET;C;42;9;15;24;18;15;33;950000;398
-316;Ryan Smyth;#N/A;EDM;L;72;10;13;23;20;13;33;0;399
-317;Jakob Silfverberg;#N/A;ANA;R;52;10;13;23;20;13;33;850000;400
+316;Ryan Smyth;0;EDM;L;72;10;13;23;20;13;33;0;399
+317;Jakob Silfverberg;0;ANA;R;52;10;13;23;20;13;33;850000;400
 421;Ryan Stanton;Canucks;VAN;D;64;1;15;16;3;30;33;550000;401
 436;Barret Jackman;Blues;STL;D;79;3;12;15;9;24;33;3166667;402
 437;Paul Martin;Penguins;PIT;D;39;3;12;15;9;24;33;5000000;403
 256;Martin Erat;Coyotes;WSH, PHX;R;70;3;26;29;6;26;32;4500000;404
 306;Kyle Brodziak;Wild;MIN;C;81;8;16;24;16;16;32;2833333;405
 307;Tuomo Ruutu;Devils;CAR, NJD;R;76;8;16;24;16;16;32;3800000;406
-308;Aleksander Barkov;#N/A;FLA;C;54;8;16;24;16;16;32;925000;407
+308;Aleksander Barkov;0;FLA;C;54;8;16;24;16;16;32;925000;407
 318;Steve Ott;Blues;BUF, STL;C;82;9;14;23;18;14;32;2600000;408
 351;Darren Helm;Redwings;DET;C;42;12;8;20;24;8;32;2125000;409
 438;Raphael Diaz;Rangers;MTL, VAN, NYR;D;63;2;13;15;6;26;32;0;410
@@ -419,7 +419,7 @@
 449;Marc Staal;Rangers;NYR;D;72;3;11;14;9;22;31;3975000;419
 330;David Moss;Coyotes;PHX;R;79;8;14;22;16;14;30;800000;420
 331;Patrick Dwyer;Hurricanes;CAR;R;75;8;14;22;16;14;30;900000;421
-332;Zemgus Girgensons;#N/A;BUF;C;70;8;14;22;16;14;30;#N/A;422
+332;Zemgus Girgensons;0;BUF;C;70;8;14;22;16;14;30;0;422
 343;Elias Lindholm;Hurricanes;CAR;C;58;9;12;21;18;12;30;925000;423
 457;Kyle Quincey;Redwings;DET;D;82;4;9;13;12;18;30;4250000;424
 458;Roman Polak;Mapleleafs;STL;D;72;4;9;13;12;18;30;2750000;425
@@ -498,13 +498,13 @@
 444;Chris Neil;Senators;OTT;R;76;8;6;14;16;6;22;1900000;498
 518;Zbynek Michalek;Coyotes;PHX;D;59;2;8;10;6;16;22;4000000;499
 520;Erik Gustafsson;Flyers;PHI;D;31;2;8;10;6;16;22;0;500
-521;Steve Oleksy;#N/A;WSH;D;33;2;8;10;6;16;22;#N/A;501
+521;Steve Oleksy;0;WSH;D;33;2;8;10;6;16;22;0;501
 402;TJ Galiardi;Jets;CGY;L;62;4;13;17;8;13;21;700000;502
 403;Tyler Kennedy;Sharks;SJS;R;67;4;13;17;8;13;21;2350000;503
 414;Blake Comeau;Penguins;CBJ;L;61;5;11;16;10;11;21;700000;504
 428;Erik Haula;Wild;MIN;C;46;6;9;15;12;9;21;900000;505
 445;Brandon Bollig;Flames;CHI;L;82;7;7;14;14;7;21;1250000;506
-446;Michael Bournival;Canadiens;MTL;L;60;7;7;14;14;7;21;#N/A;507
+446;Michael Bournival;Canadiens;MTL;L;60;7;7;14;14;7;21;0;507
 523;Cory Sarich;Avalanche;COL;D;54;1;9;10;3;18;21;0;508
 524;Dennis Seidenberg;Bruins;BOS;D;34;1;9;10;3;18;21;4000000;509
 534;Erik Gudbranson;Panthers;FLA;D;65;3;6;9;9;12;21;2500000;510
@@ -537,10 +537,10 @@
 555;Brett Bellemore;Hurricanes;CAR;D;64;2;6;8;6;12;18;600000;537
 556;Nate Prosser;Blues;MIN;D;53;2;6;8;6;12;18;700000;538
 459;Tanner Glass;Rangers;PIT;L;67;4;9;13;8;9;17;1450000;539
-469;Matt D'Agostini;#N/A;PIT, BUF;R;57;5;7;12;10;7;17;#N/A;540
+469;Matt D'Agostini;0;PIT, BUF;R;57;5;7;12;10;7;17;0;540
 470;Jeff Halpern;Coyotes;PHX;C;69;5;7;12;10;7;17;0;541
 484;Trevor Lewis;Kings;LAK;C;73;6;5;11;12;5;17;1525000;542
-485;Patrick Bordeleau;#N/A;COL;L;82;6;5;11;12;5;17;#N/A;543
+485;Patrick Bordeleau;0;COL;L;82;6;5;11;12;5;17;0;543
 486;Peter Holland;Mapleleafs;ANA, TOR;C;43;6;5;11;12;5;17;775000;544
 507;Ryan Carter;Devils;NJD;L;62;7;3;10;14;3;17;0;545
 560;Michal Rozsival;Blackhawks;CHI;D;42;1;7;8;3;14;17;2200000;546
@@ -563,7 +563,7 @@
 492;Peter Regin;Blackhawks;NYI, CHI;C;61;4;7;11;8;7;15;650000;563
 494;Alex Tanguay;Avalanche;COL;L;16;4;7;11;8;7;15;3500000;564
 512;Matt Halischuk;Jets;WPG;R;46;5;5;10;10;5;15;725000;565
-578;Anton Belov;#N/A;EDM;D;57;1;6;7;3;12;15;#N/A;566
+578;Anton Belov;0;EDM;D;57;1;6;7;3;12;15;0;566
 579;Mark Pysyk;Sabres;BUF;D;44;1;6;7;3;12;15;870000;567
 479;Travis Moen;Canadiens;MTL;L;65;2;10;12;4;10;14;1850000;568
 481;Scott Gomez;Panthers;FLA;C;46;2;10;12;4;10;14;0;569
@@ -581,7 +581,7 @@
 514;Tom Wilson;Capitals;WSH;R;82;3;7;10;6;7;13;894167;581
 515;B.J. Crombeen;Coyotes;TBL;R;55;3;7;10;6;7;13;1150000;582
 517;Troy Bodie;Mapleleafs;TOR;R;47;3;7;10;6;7;13;600000;583
-529;Adam Hall;#N/A;PHI;R;80;4;5;9;8;5;13;#N/A;584
+529;Adam Hall;0;PHI;R;80;4;5;9;8;5;13;0;584
 530;Jay Beagle;Capitals;WSH;R;62;4;5;9;8;5;13;900000;585
 531;Radek Dvorak;Hurricanes;CAR;R;60;4;5;9;8;5;13;0;586
 532;Pierre-Marc Bouchard;Unsigned;NYI;C;28;4;5;9;8;5;13;0;587
@@ -599,7 +599,7 @@
 519;Torrey Mitchell;Sabres;MIN, BUF;C;67;2;8;10;4;8;12;1900000;599
 522;Devante Smith-Pelly;Ducks;ANA;R;19;2;8;10;4;8;12;0;600
 537;Evgeny Kuznetsov;Capitals;WSH;C;17;3;6;9;6;6;12;900000;601
-548;Daniel Cleary;#N/A;DET;R;52;4;4;8;8;4;12;#N/A;602
+548;Daniel Cleary;0;DET;R;52;4;4;8;8;4;12;0;602
 549;Derek Dorsett;Canucks;NYR;R;51;4;4;8;8;4;12;1633333;603
 550;Brian McGrattan;Flames;CGY;R;76;4;4;8;8;4;12;750000;604
 551;Mark Stone;Senators;OTT;R;19;4;4;8;8;4;12;603333;605
@@ -614,13 +614,13 @@
 567;Zac Dalpe;Sabres;VAN;C;55;4;3;7;8;3;11;700000;614
 568;Kevin Westgarth;Flames;CAR, CGY;R;48;4;3;7;8;3;11;0;615
 622;Clayton Stoner;Ducks;MIN;D;63;1;4;5;3;8;11;3250000;616
-623;Ed Jovanovski;#N/A;FLA;D;37;1;4;5;3;8;11;#N/A;617
+623;Ed Jovanovski;0;FLA;D;37;1;4;5;3;8;11;0;617
 624;Mark Fistric;Ducks;ANA;D;34;1;4;5;3;8;11;1266667;618
 557;Ryan Reaves;Blues;STL;R;63;2;6;8;4;6;10;1125000;619
 558;Tim Kennedy;Capitals;PHX;L;37;2;6;8;4;6;10;550000;620
 559;Paul Bissonnette;Coyotes;PHX;L;39;2;6;8;4;6;10;0;621
-569;Rich Clune;#N/A;NSH;L;58;3;4;7;6;4;10;#N/A;622
-570;Tom Pyatt;#N/A;TBL;C;27;3;4;7;6;4;10;#N/A;623
+569;Rich Clune;0;NSH;L;58;3;4;7;6;4;10;0;622
+570;Tom Pyatt;0;TBL;C;27;3;4;7;6;4;10;0;623
 571;Beau Bennett;Penguins;PIT;R;21;3;4;7;6;4;10;900000;624
 572;Eric O'Dell;Jets;WPG;C;30;3;4;7;6;4;10;650000;625
 573;Tanner Pearson;Kings;LAK;L;25;3;4;7;6;4;10;735833;626
@@ -629,7 +629,7 @@
 626;Nick Schultz;Flyers;EDM, CBJ;D;69;0;5;5;0;10;10;1250000;629
 627;Simon Despres;Penguins;PIT;D;34;0;5;5;0;10;10;900000;630
 628;Corey Potter;Bruins;EDM, BOS;D;19;0;5;5;0;10;10;0;631
-632;Rasmus Ristolainen;#N/A;BUF;D;34;2;2;4;6;4;10;#N/A;632
+632;Rasmus Ristolainen;0;BUF;D;34;2;2;4;6;4;10;0;632
 575;Matt Frattin;Mapleleafs;LAK, CBJ;R;44;2;5;7;4;5;9;800000;633
 576;Cody McCormick;Sabres;BUF, MIN;C;43;2;5;7;4;5;9;1500000;634
 577;Reid Boucher;Devils;NJD;R;23;2;5;7;4;5;9;692500;635
@@ -638,7 +638,7 @@
 586;Mike Hoffman;Senators;OTT;L;25;3;3;6;6;3;9;750000;638
 587;Jordan Schroeder;Wild;VAN;C;25;3;3;6;6;3;9;600000;639
 588;Nicklas Jensen;Canucks;VAN;R;17;3;3;6;6;3;9;863333;640
-608;Taylor Pyatt;#N/A;NYR, PIT;L;56;4;1;5;8;1;9;#N/A;641
+608;Taylor Pyatt;0;NYR, PIT;L;56;4;1;5;8;1;9;0;641
 609;Daniel Carcillo;Rangers;LAK, NYR;L;57;4;1;5;8;1;9;0;642
 610;Jason Zucker;Wild;MIN;L;21;4;1;5;8;1;9;900250;643
 611;Tim Jackman;Ducks;CGY, ANA;R;36;4;1;5;8;1;9;637500;644
@@ -646,9 +646,9 @@
 613;Tye McGinn;Sharks;PHI;L;18;4;1;5;8;1;9;600000;646
 638;Bryce Salvador;Devils;NJD;D;40;1;3;4;3;6;9;3166667;647
 639;John Erskine;Capitals;WSH;D;37;1;3;4;3;6;9;1962500;648
-640;Rostislav Klesla;#N/A;PHX;D;25;1;3;4;3;6;9;#N/A;649
+640;Rostislav Klesla;0;PHX;D;25;1;3;4;3;6;9;0;649
 641;Carlo Colaiacovo;Blues;STL;D;25;1;3;4;3;6;9;0;650
-580;Marc-Andre Cliche;#N/A;COL;C;76;1;6;7;2;6;8;#N/A;651
+580;Marc-Andre Cliche;0;COL;C;76;1;6;7;2;6;8;0;651
 581;Luke Glendening;Redwings;DET;C;56;1;6;7;2;6;8;628333;652
 594;Ryan Jones;Oilers;EDM;L;52;2;4;6;4;4;8;0;653
 595;Ryan White;Flyers;MTL;C;52;2;4;6;4;4;8;575000;654
@@ -662,13 +662,13 @@
 645;Rob Scuderi;Penguins;PIT;D;53;0;4;4;0;8;8;3375000;662
 646;Peter Harrold;Devils;NJD;D;33;0;4;4;0;8;8;800000;663
 648;Mike Komisarek;Hurricanes;CAR;D;32;0;4;4;0;8;8;0;664
-651;Jean-Philippe Cote;#N/A;TBL;D;19;0;4;4;0;8;8;#N/A;665
-652;Tyler Wotherspoon;#N/A;CGY;D;14;0;4;4;0;8;8;#N/A;666
+651;Jean-Philippe Cote;0;TBL;D;19;0;4;4;0;8;8;0;665
+652;Tyler Wotherspoon;0;CGY;D;14;0;4;4;0;8;8;0;666
 656;Chris Summers;Coyotes;PHX;D;18;2;1;3;6;2;8;600000;667
 619;Mike Brown;Sharks;EDM, SJS;R;56;2;3;5;4;3;7;1200000;668
 620;Patrick Eaves;Stars;DET, NSH;R;30;2;3;5;4;3;7;650000;669
 621;Anthony Peluso;Jets;WPG;R;53;2;3;5;4;3;7;562500;670
-631;Stephane Da Costa;#N/A;OTT;C;12;3;1;4;6;1;7;#N/A;671
+631;Stephane Da Costa;0;OTT;C;12;3;1;4;6;1;7;0;671
 661;Adam Larsson;Devils;NJD;D;26;1;2;3;3;4;7;900000;672
 663;Paul Postma;Jets;WPG;D;20;1;2;3;3;4;7;712500;673
 664;Aaron Ness;Islanders;NYI;D;20;1;2;3;3;4;7;826875;674
@@ -680,11 +680,11 @@
 635;Stephen Weiss;Redwings;DET;C;26;2;2;4;4;2;6;4900000;680
 636;Dustin Jeffrey;Canucks;PIT, DAL;C;34;2;2;4;4;2;6;600000;681
 637;Eric Boulton;Islanders;NYI;L;23;2;2;4;4;2;6;650000;682
-653;Stephane Veilleux;#N/A;MIN;L;34;3;0;3;6;0;6;#N/A;683
+653;Stephane Veilleux;0;MIN;L;34;3;0;3;6;0;6;0;683
 654;Jordan Szwarz;Coyotes;PHX;R;26;3;0;3;6;0;6;630000;684
 655;Cam Janssen;Devils;NJD;R;24;3;0;3;6;0;6;575000;685
 672;Matt Carkner;Islanders;NYI;D;53;0;3;3;0;6;6;1500000;686
-673;Shane O'Brien;#N/A;CGY;D;45;0;3;3;0;6;6;#N/A;687
+673;Shane O'Brien;0;CGY;D;45;0;3;3;0;6;6;0;687
 674;Radek Martinek;Islanders;NYI;D;13;0;3;3;0;6;6;0;688
 677;Patrick Wey;Capitals;WSH;D;9;0;3;3;0;6;6;640000;689
 678;Chad Billins;Flames;CGY;D;10;0;3;3;0;6;6;0;690
@@ -694,41 +694,41 @@
 642;Colton Sissons;Predators;NSH;C;17;1;3;4;2;3;5;635000;694
 643;Michael Latta;Capitals;WSH;C;17;1;3;4;2;3;5;575000;695
 644;Zach Boychuk;Hurricanes;CAR;L;11;1;3;4;2;3;5;600000;696
-657;Mikhail Grigorenko;#N/A;BUF;C;18;2;1;3;4;1;5;#N/A;697
+657;Mikhail Grigorenko;0;BUF;C;18;2;1;3;4;1;5;0;697
 658;Casey Wellman;Capitals;WSH;C;13;2;1;3;4;1;5;550000;698
 659;Markus Granlund;Flames;CGY;C;7;2;1;3;4;1;5;767500;699
 689;Mark Fraser;Oilers;TOR, EDM;D;42;1;1;2;3;2;5;0;700
 691;Alexander Urbom;Devils;WSH;D;20;1;1;2;3;2;5;0;701
-693;Matt Gilroy;#N/A;FLA;D;16;1;1;2;3;2;5;#N/A;702
-696;Matt Dumba;#N/A;MIN;D;13;1;1;2;3;2;5;#N/A;703
-697;Julien Brouillette;#N/A;WSH;D;10;1;1;2;3;2;5;#N/A;704
+693;Matt Gilroy;0;FLA;D;16;1;1;2;3;2;5;0;702
+696;Matt Dumba;0;MIN;D;13;1;1;2;3;2;5;0;703
+697;Julien Brouillette;0;WSH;D;10;1;1;2;3;2;5;0;704
 702;David Warsofsky;Bruins;BOS;D;6;1;1;2;3;2;5;600000;705
 647;Johan Larsson;Sabres;BUF;L;28;0;4;4;0;4;4;763333;706
-649;Krys Barch;#N/A;FLA;R;55;0;4;4;0;4;4;#N/A;707
+649;Krys Barch;0;FLA;R;55;0;4;4;0;4;4;0;707
 650;Rickard Rakell;Ducks;ANA;C;18;0;4;4;0;4;4;894167;708
 660;Zenon Konopka;Sabres;MIN, BUF;C;59;1;2;3;2;2;4;0;709
 662;Jordan Caron;Bruins;BOS;R;35;1;2;3;2;2;4;600000;710
 665;Jacob Josefson;Devils;NJD;C;27;1;2;3;2;2;4;800000;711
-666;Mikael Samuelsson;#N/A;DET;R;26;1;2;3;2;2;4;#N/A;712
+666;Mikael Samuelsson;0;DET;R;26;1;2;3;2;2;4;0;712
 668;Joakim Nordstrom;Blackhawks;CHI;C;16;1;2;3;2;2;4;616667;713
 669;Jerry D'Amigo;Bluejackets;TOR;R;22;1;2;3;2;2;4;850500;714
 671;Darren Archibald;Canucks;VAN;R;16;1;2;3;2;2;4;600000;715
-680;Chuck Kobasew;#N/A;PIT;R;33;2;0;2;4;0;4;#N/A;716
+680;Chuck Kobasew;0;PIT;R;33;2;0;2;4;0;4;0;716
 681;Aaron Volpatti;Capitals;WSH;L;41;2;0;2;4;0;4;575000;717
-682;Jean-Gabriel Pageau;#N/A;OTT;C;28;2;0;2;4;0;4;#N/A;718
+682;Jean-Gabriel Pageau;0;OTT;C;28;2;0;2;4;0;4;0;718
 683;Jay Rosehill;Flyers;PHI;L;34;2;0;2;4;0;4;675000;719
 684;Blair Jones;Flyers;CGY;C;14;2;0;2;4;0;4;600000;720
 685;Matt Fraser;Bruins;BOS;R;14;2;0;2;4;0;4;0;721
-686;Harry Zolnierczyk;#N/A;PIT;L;13;2;0;2;4;0;4;#N/A;722
+686;Harry Zolnierczyk;0;PIT;L;13;2;0;2;4;0;4;0;722
 707;Douglas Murray;Canadiens;MTL;D;53;0;2;2;0;4;4;0;723
-709;Alexander Sulzer;#N/A;BUF;D;25;0;2;2;0;4;4;#N/A;724
+709;Alexander Sulzer;0;BUF;D;25;0;2;2;0;4;4;0;724
 710;Jarred Tinordi;Canadiens;MTL;D;22;0;2;2;0;4;4;870000;725
 711;Tyson Strachan;Sabres;WSH;D;18;0;2;2;0;4;4;650000;726
 712;Colby Robak;Panthers;FLA;D;16;0;2;2;0;4;4;675000;727
 714;Kevin Czuczman;Islanders;NYI;D;13;0;2;2;0;4;4;925000;728
 715;Justin Falk;Wild;NYR;D;21;0;2;2;0;4;4;700000;729
 716;Nathan Beaulieu;Canadiens;MTL;D;17;0;2;2;0;4;4;925000;730
-724;Chris Breen;#N/A;CGY;D;9;0;2;2;0;4;4;#N/A;731
+724;Chris Breen;0;CGY;D;9;0;2;2;0;4;4;0;731
 675;Carter Ashton;Mapleleafs;TOR;R;32;0;3;3;0;3;3;850500;732
 676;Tim Sestito;Devils;NJD;L;16;0;3;3;0;3;3;562500;733
 679;Patrice Cormier;Jets;WPG;C;9;0;3;3;0;3;3;625000;734
@@ -739,8 +739,8 @@
 698;Matt Kassian;Senators;OTT;L;33;1;1;2;2;1;3;0;739
 699;Brett Sutter;Wild;CAR;L;17;1;1;2;2;1;3;600000;740
 700;Chris Brown;Capitals;PHX, WSH;C;12;1;1;2;2;1;3;853333;741
-701;Philip Varone;#N/A;BUF;C;9;1;1;2;2;1;3;#N/A;742
-703;Kenny Agostino;#N/A;CGY;L;8;1;1;2;2;1;3;#N/A;743
+701;Philip Varone;0;BUF;C;9;1;1;2;2;1;3;0;742
+703;Kenny Agostino;0;CGY;L;8;1;1;2;2;1;3;0;743
 704;Josh Leivo;Mapleleafs;TOR;L;7;1;1;2;2;1;3;792500;744
 705;Simon Moser;Predators;NSH;C;6;1;1;2;2;1;3;0;745
 706;Justin Florek;Bruins;BOS;L;4;1;1;2;2;1;3;600000;746
@@ -752,18 +752,18 @@
 708;James Wright;Jets;WPG;C;59;0;2;2;0;2;2;0;752
 713;Colin Fraser;Kings;LAK;C;33;0;2;2;0;2;2;0;753
 717;Derek Grant;Senators;OTT;C;20;0;2;2;0;2;2;700000;754
-718;Linus Omark;#N/A;EDM, BUF;L;14;0;2;2;0;2;2;#N/A;755
-719;Cory Emmerton;#N/A;DET;C;18;0;2;2;0;2;2;#N/A;756
+718;Linus Omark;0;EDM, BUF;L;14;0;2;2;0;2;2;0;755
+719;Cory Emmerton;0;DET;C;18;0;2;2;0;2;2;0;756
 720;Adam Cracknell;Kings;STL;R;19;0;2;2;0;2;2;600000;757
 721;Chris Terry;Hurricanes;CAR;L;10;0;2;2;0;2;2;600000;758
-722;Rostislav Olesz;#N/A;NJD;L;10;0;2;2;0;2;2;#N/A;759
+722;Rostislav Olesz;0;NJD;L;10;0;2;2;0;2;2;0;759
 723;Max Reinhart;Flames;CGY;C;8;0;2;2;0;2;2;618333;760
 725;Ben Hanowski;Flames;CGY;R;11;0;2;2;0;2;2;850500;761
 726;Andy Miele;Redwings;PHX;C;7;0;2;2;0;2;2;600000;762
-727;Steven Pinizzotto;#N/A;EDM;R;6;0;2;2;0;2;2;#N/A;763
-728;Lane MacDermid;#N/A;DAL, CGY;L;7;0;2;2;0;2;2;#N/A;764
+727;Steven Pinizzotto;0;EDM;R;6;0;2;2;0;2;2;0;763
+728;Lane MacDermid;0;DAL, CGY;L;7;0;2;2;0;2;2;0;764
 729;John Scott;Sharks;BUF;L;56;1;0;1;2;0;2;700000;765
-730;Nicolas Deslauriers;#N/A;BUF;L;17;1;0;1;2;0;2;#N/A;766
+730;Nicolas Deslauriers;0;BUF;L;17;1;0;1;2;0;2;0;766
 731;Mike Halmo;Islanders;NYI;L;20;1;0;1;2;0;2;864167;767
 734;Luke Adam;Sabres;BUF;C;12;1;0;1;2;0;2;650000;768
 735;Mattias Tedenby;Devils;NJD;R;15;1;0;1;2;0;2;0;769
@@ -781,20 +781,20 @@
 749;Matt Carey;Blackhawks;CHI;L;2;1;0;1;2;0;2;925000;781
 751;Johnny Gaudreau;Flames;CGY;L;1;1;0;1;2;0;2;925000;782
 752;Chad Ruhwedel;Sabres;BUF;D;21;0;1;1;0;2;2;650000;783
-754;Aaron Rome;#N/A;DAL;D;25;0;1;1;0;2;2;#N/A;784
+754;Aaron Rome;0;DAL;D;25;0;1;1;0;2;2;0;784
 755;Jack Hillen;Capitals;WSH;D;13;0;1;1;0;2;2;700000;785
 756;David Rundblad;Blackhawks;PHX, CHI;D;17;0;1;1;0;2;2;785000;786
 758;Jonathon Blum;Wild;MIN;D;15;0;1;1;0;2;2;675000;787
 760;Keith Aulie;Oilers;TBL;D;15;0;1;1;0;2;2;800000;788
-764;Derek Smith;#N/A;CGY;D;14;0;1;1;0;2;2;#N/A;789
+764;Derek Smith;0;CGY;D;14;0;1;1;0;2;2;0;789
 766;Brian Dumoulin;Penguins;PIT;D;6;0;1;1;0;2;2;831667;790
 767;Jake McCabe;Sabres;BUF;D;7;0;1;1;0;2;2;925000;791
-770;Denis Grebeshkov;#N/A;EDM;D;7;0;1;1;0;2;2;#N/A;792
+770;Denis Grebeshkov;0;EDM;D;7;0;1;1;0;2;2;0;792
 772;Alex Petrovic;Panthers;FLA;D;7;0;1;1;0;2;2;795000;793
 779;Dmitry Korobov;Lightning;TBL;D;3;0;1;1;0;2;2;0;794
 780;Nolan Yonkman;Ducks;ANA;D;2;0;1;1;0;2;2;0;795
 785;Christian Folin;Wild;MIN;D;1;0;1;1;0;2;2;925000;796
-786;Maxime Fortunus;#N/A;DAL;D;1;0;1;1;0;2;2;0;797
+786;Maxime Fortunus;0;DAL;D;1;0;1;1;0;2;2;0;797
 753;Anton Lander;Oilers;EDM;C;27;0;1;1;0;1;1;600000;798
 757;Chris Porter;Blues;STL;L;22;0;1;1;0;1;1;675000;799
 759;Michael Chaput;Bluejackets;CBJ;C;17;0;1;1;0;1;1;706667;800
@@ -806,8 +806,8 @@
 769;Andrew Ebbett;Penguins;PIT;C;9;0;1;1;0;1;1;550000;806
 771;Johan Sundstrom;Islanders;NYI;C;11;0;1;1;0;1;1;770000;807
 773;Mike Rupp;Wild;MIN;L;13;0;1;1;0;1;1;0;808
-774;Jordin Tootoo;#N/A;DET;R;11;0;1;1;0;1;1;#N/A;809
-775;Ben Eager;#N/A;EDM;L;7;0;1;1;0;1;1;#N/A;810
+774;Jordin Tootoo;0;DET;R;11;0;1;1;0;1;1;0;809
+775;Ben Eager;0;EDM;L;7;0;1;1;0;1;1;0;810
 776;Sean Collins;Bluejackets;CBJ;C;6;0;1;1;0;1;1;620000;811
 777;Travis Morin;Stars;DAL;C;4;0;1;1;0;1;1;550000;812
 778;David Broll;Mapleleafs;TOR;L;5;0;1;1;0;1;1;590833;813
@@ -829,23 +829,23 @@
 798;Freddie Hamilton;Sharks;SJS;C;11;0;0;0;0;0;0;626667;829
 799;Patrik Nemeth;Stars;DAL;D;8;0;0;0;0;0;0;763333;830
 800;Frazer McLaren;Mapleleafs;TOR;L;27;0;0;0;0;0;0;700000;831
-801;Mike Mottau;#N/A;FLA;D;8;0;0;0;0;0;0;#N/A;832
+801;Mike Mottau;0;FLA;D;8;0;0;0;0;0;0;0;832
 802;Matt Taormina;Bluejackets;TBL;D;7;0;0;0;0;0;0;0;833
 803;Taylor Beck;Predators;NSH;L;7;0;0;0;0;0;0;0;834
-804;Pierre-Cedric Labrie;#N/A;TBL;L;13;0;0;0;0;0;0;#N/A;835
+804;Pierre-Cedric Labrie;0;TBL;L;13;0;0;0;0;0;0;0;835
 805;Hal Gill;Flyers;PHI;D;6;0;0;0;0;0;0;0;836
-806;Nick Johnson;#N/A;BOS;R;9;0;0;0;0;0;0;#N/A;837
+806;Nick Johnson;0;BOS;R;9;0;0;0;0;0;0;0;837
 807;Scott Mayfield;Islanders;NYI;D;5;0;0;0;0;0;0;925000;838
 808;Chris Mueller;Rangers;DAL;C;9;0;0;0;0;0;0;600000;839
 809;Louis Leblanc;Ducks;MTL;C;8;0;0;0;0;0;0;550000;840
-810;Philip Samuelsson;#N/A;PIT;D;5;0;0;0;0;0;0;#N/A;841
+810;Philip Samuelsson;0;PIT;D;5;0;0;0;0;0;0;0;841
 811;Paul Carey;Avalanche;COL;C;12;0;0;0;0;0;0;715000;842
 812;Andrew Alberts;Canucks;VAN;D;10;0;0;0;0;0;0;0;843
 813;Brandon Gormley;Coyotes;PHX;D;5;0;0;0;0;0;0;840000;844
 814;David Steckel;Ducks;ANA;C;6;0;0;0;0;0;0;0;845
 815;Dana Tyrell;Bluejackets;TBL;C;7;0;0;0;0;0;0;655000;846
 816;Xavier Ouellet;Redwings;DET;D;4;0;0;0;0;0;0;670000;847
-817;Bryce Van Brabant;#N/A;CGY;L;6;0;0;0;0;0;0;#N/A;848
+817;Bryce Van Brabant;0;CGY;L;6;0;0;0;0;0;0;0;848
 818;Brett Bulmer;Wild;MIN;R;5;0;0;0;0;0;0;780000;849
 819;Cody Goloubef;Bluejackets;CBJ;D;5;0;0;0;0;0;0;625000;850
 820;Arron Asham;Rangers;NYR;R;6;0;0;0;0;0;0;0;851
@@ -857,61 +857,61 @@
 826;Patrick Kaleta;Sabres;BUF;R;5;0;0;0;0;0;0;1250000;857
 827;Patrick Holland;Canadiens;MTL;R;5;0;0;0;0;0;0;640000;858
 828;Andrew Campbell;Coyotes;LAK;D;3;0;0;0;0;0;0;550000;859
-829;Vladislav Namestnikov;#N/A;TBL;C;4;0;0;0;0;0;0;#N/A;860
+829;Vladislav Namestnikov;0;TBL;C;4;0;0;0;0;0;0;0;860
 830;Brad Hunt;Oilers;EDM;D;3;0;0;0;0;0;0;550000;861
 831;Yann Sauve;Canucks;VAN;D;3;0;0;0;0;0;0;0;862
 832;Landon Ferraro;Redwings;DET;C;4;0;0;0;0;0;0;550000;863
-833;Gilbert Brule;#N/A;PHX;C;3;0;0;0;0;0;0;#N/A;864
+833;Gilbert Brule;0;PHX;C;3;0;0;0;0;0;0;0;864
 834;Lucas Lessio;Coyotes;PHX;L;3;0;0;0;0;0;0;830833;865
 835;Garrett Wilson;Panthers;FLA;L;3;0;0;0;0;0;0;715000;866
 836;Brad Mills;Blackhawks;CHI;C;3;0;0;0;0;0;0;0;867
 837;Zach Trotman;Bruins;BOS;D;2;0;0;0;0;0;0;625000;868
 838;Tim Erixon;Bluejackets;CBJ;D;2;0;0;0;0;0;0;600000;869
 839;Brett Gallant;Islanders;NYI;L;4;0;0;0;0;0;0;605000;870
-840;Brandon Mashinter;#N/A;NYR;L;6;0;0;0;0;0;0;#N/A;871
-841;Ryan Stoa;#N/A;WSH;C;3;0;0;0;0;0;0;#N/A;872
-842;Pascal Pelletier;#N/A;VAN;L;3;0;0;0;0;0;0;#N/A;873
-843;Keith Aucoin;#N/A;STL;C;2;0;0;0;0;0;0;#N/A;874
+840;Brandon Mashinter;0;NYR;L;6;0;0;0;0;0;0;0;871
+841;Ryan Stoa;0;WSH;C;3;0;0;0;0;0;0;0;872
+842;Pascal Pelletier;0;VAN;L;3;0;0;0;0;0;0;0;873
+843;Keith Aucoin;0;STL;C;2;0;0;0;0;0;0;0;874
 844;Joe Piskula;Predators;NSH;D;2;0;0;0;0;0;0;550000;875
 845;Matt Lindblad;Bruins;BOS;C;2;0;0;0;0;0;0;833750;876
 846;Teemu Pulkkinen;Redwings;DET;L;3;0;0;0;0;0;0;698333;877
 847;Ty Rattie;Blues;STL;R;2;0;0;0;0;0;0;772500;878
-848;Nicolas Deschamps;#N/A;WSH;C;3;0;0;0;0;0;0;#N/A;879
+848;Nicolas Deschamps;0;WSH;C;3;0;0;0;0;0;0;0;879
 849;Ryan Hamilton;Oilers;EDM;L;2;0;0;0;0;0;0;600000;880
 850;Craig Cunningham;Bruins;BOS;R;2;0;0;0;0;0;0;600000;881
 851;Aaron Palushaj;Hurricanes;CAR;R;2;0;0;0;0;0;0;0;882
 852;Ryan Sproul;Redwings;DET;D;1;0;0;0;0;0;0;620000;883
 853;Adam Payerl;Penguins;PIT;C;2;0;0;0;0;0;0;626667;884
-854;Cameron Schilling;#N/A;WSH;D;1;0;0;0;0;0;0;#N/A;885
+854;Cameron Schilling;0;WSH;D;1;0;0;0;0;0;0;0;885
 855;Matt Hunwick;Rangers;COL;D;1;0;0;0;0;0;0;600000;886
 856;Jonathan Racine;Panthers;FLA;D;1;0;0;0;0;0;0;674167;887
-857;Alexander Khokhlachev;#N/A;BOS;C;1;0;0;0;0;0;0;#N/A;888
+857;Alexander Khokhlachev;0;BOS;C;1;0;0;0;0;0;0;0;888
 858;Christian Thomas;Canadiens;MTL;L;2;0;0;0;0;0;0;808333;889
 859;Dylan McIlrath;Rangers;NYR;D;2;0;0;0;0;0;0;703333;890
 860;Brandon Yip;Coyotes;PHX;R;2;0;0;0;0;0;0;0;891
 861;Gabriel Dumont;Canadiens;MTL;C;2;0;0;0;0;0;0;562500;892
 862;Bill Arnold;Flames;CGY;C;1;0;0;0;0;0;0;887500;893
-863;Alexey Marchenko;#N/A;DET;D;1;0;0;0;0;0;0;#N/A;894
+863;Alexey Marchenko;0;DET;D;1;0;0;0;0;0;0;0;894
 864;Karl Stollery;Avalanche;COL;D;2;0;0;0;0;0;0;605000;895
 865;Justin Johnson;Islanders;NYI;R;2;0;0;0;0;0;0;0;896
 866;Petter Granberg;Mapleleafs;TOR;D;1;0;0;0;0;0;0;800000;897
 867;Jamie Devane;Mapleleafs;TOR;L;2;0;0;0;0;0;0;575000;898
-868;David Van Der Gulik;#N/A;COL;L;2;0;0;0;0;0;0;#N/A;899
+868;David Van Der Gulik;0;COL;L;2;0;0;0;0;0;0;0;899
 869;Ben Chiarot;Jets;WPG;D;1;0;0;0;0;0;0;600000;900
-870;Nick Drazenovic;#N/A;PIT;C;1;0;0;0;0;0;0;#N/A;901
+870;Nick Drazenovic;0;PIT;C;1;0;0;0;0;0;0;0;901
 871;Cody Kunyk;Lightning;TBL;R;1;0;0;0;0;0;0;874125;902
-872;Martin St Pierre;#N/A;MTL;C;1;0;0;0;0;0;0;#N/A;903
-873;Peter LeBlanc;#N/A;WSH;C;1;0;0;0;0;0;0;#N/A;904
-874;Mitch Callahan;#N/A;DET;R;1;0;0;0;0;0;0;#N/A;905
+872;Martin St Pierre;0;MTL;C;1;0;0;0;0;0;0;0;903
+873;Peter LeBlanc;0;WSH;C;1;0;0;0;0;0;0;0;904
+874;Mitch Callahan;0;DET;R;1;0;0;0;0;0;0;0;905
 875;Benn Ferriero;Blues;VAN;R;2;0;0;0;0;0;0;600000;906
 876;Julian Melchiori;Jets;WPG;D;1;0;0;0;0;0;0;625000;907
-877;Darroll Powe;#N/A;NYR;C;1;0;0;0;0;0;0;#N/A;908
+877;Darroll Powe;0;NYR;C;1;0;0;0;0;0;0;0;908
 878;Mark Van Guilder;Predators;NSH;C;1;0;0;0;0;0;0;550000;909
 879;Carson McMillan;Wild;MIN;R;1;0;0;0;0;0;0;0;910
 880;Joe Whitney;Devils;NJD;R;1;0;0;0;0;0;0;567500;911
-881;Jake Dowell;#N/A;MIN;C;1;0;0;0;0;0;0;#N/A;912
+881;Jake Dowell;0;MIN;C;1;0;0;0;0;0;0;0;912
 882;Spencer Abbott;Mapleleafs;TOR;L;1;0;0;0;0;0;0;0;913
-883;Pierre-Luc Letourneau-Leblond;#N/A;PIT;R;1;0;0;0;0;0;0;#N/A;914
+883;Pierre-Luc Letourneau-Leblond;0;PIT;R;1;0;0;0;0;0;0;0;914
 884;Greg McKegg;Mapleleafs;TOR;C;1;0;0;0;0;0;0;660000;915
 885;Cody Bass;Blackhawks;CBJ;C;1;0;0;0;0;0;0;550000;916
 886;Joonas Nattinen;Canadiens;MTL;C;1;0;0;0;0;0;0;0;917

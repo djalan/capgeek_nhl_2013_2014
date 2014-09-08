@@ -93,9 +93,6 @@ class HomeController < ApplicationController
   end
   
   def draft
-    @total_players = Player.count
-    @total_drafted = Player.where("drafted != 'no'").count
-    
     case @year
     when '2013-2014'
       @cap = 64_300_000
@@ -107,14 +104,17 @@ class HomeController < ApplicationController
       @max_to_draft = 20
     end
     
+    @total_players = Player.where('season = ?', @year).count
+    @total_drafted = Player.where("drafted != 'no' AND season = ?", @year).count
+    
     @nbr_drafted = {}
     @spent = {}
     @left = {}
     @average = {}
     
     @poolers.each do |person|
-      @nbr_drafted[person]  = Player.where("drafted = '#{person}'").count
-      @spent[person]    = Player.select(:salary).where("drafted = '#{person}'").sum(:salary)
+      @nbr_drafted[person]  = Player.where("drafted = '#{person}' AND season = ?", @year).count
+      @spent[person]    = Player.select(:salary).where("drafted = '#{person}' AND season = ?", @year).sum(:salary)
       @left[person]     = @cap - @spent[person]
       if @nbr_drafted[person] == @max_to_draft
         @average[person] = @left[person]
