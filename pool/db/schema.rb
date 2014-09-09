@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140908020720) do
+ActiveRecord::Schema.define(version: 20140909043550) do
 
   create_table "players", force: true do |t|
     t.string   "name"
@@ -33,8 +33,10 @@ ActiveRecord::Schema.define(version: 20140908020720) do
     t.datetime "updated_at"
     t.string   "color"
     t.integer  "games"
-    t.string   "drafted",      default: "no"
-    t.string   "season",       default: "unknown"
+    t.string   "drafted",          default: "no"
+    t.string   "season",           default: "unknown"
+    t.integer  "my_rank_global",   default: 9999
+    t.integer  "my_rank_position", default: 9999
   end
 
 end

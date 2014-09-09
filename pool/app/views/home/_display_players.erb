@@ -1,6 +1,10 @@
 <p id="notice">
 	<% if notice %>
-		Maximum: <%= number_to_currency notice, precision: 0 %>
+		<% if notice =~ /^[0-9]*$/ %>
+			Maximum: <%= number_to_currency notice, precision: 0 %>
+		<% else%>
+			<%= notice %>
+		<% end %>	
 	<% end %>
 </p>
 
@@ -15,6 +19,7 @@
 <table>
 	<thead>
 		<tr>
+			<th>My Rank</th>
 			<th>Name</th>
 			<th>Team</th>
 			<th>Position</th>
@@ -32,6 +37,7 @@
 	<tbody>
 		<% @players.each do |player| %>
 		<tr style='background-color:<%=player.color%>' id='<%= player.id %>'>
+			<td><%= player.my_rank_position %></td>
 			<td><%= player.name %></td>
 			<td><%= player.team %></td>
 			<td><%= player.position %></td>

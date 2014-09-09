@@ -27,6 +27,9 @@
 				<th>Salary</th>
 				<th>Color</th>
 				<th>Drafted</th>
+				<th>Season</th>
+				<th>Rank position</th>
+				<th>Rank global</th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -55,6 +58,9 @@
 				<td><%= number_to_currency player.salary, precision: 0 %></td>
 				<td><%= player.color %></td>
 				<td><%= player.drafted %></td>
+				<td><%= player.season %></td>
+				<td><%= player.my_rank_position %></td>
+				<td><%= player.my_rank_global %></td>
 				<td><%= check_box_tag "player_ids[]", player.id %></td>
 				<td><%= link_to 'Show', player %></td>
 				<td><%= link_to 'Edit', edit_player_path(player) %></td>

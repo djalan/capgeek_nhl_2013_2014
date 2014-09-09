@@ -2,6 +2,7 @@ class HomeController < ApplicationController
 
   # GET /home
   def index
+    session[:return_to] = request.fullpath
     @no_drafted = Player.where('drafted = "yes" AND season = ?', @year).count
     @players = Player.where('drafted = "no" AND season = ?', @year).order('points DESC')
     
@@ -11,6 +12,7 @@ class HomeController < ApplicationController
   
   
   def all
+    session[:return_to] = request.fullpath
     if params[:salary_max]
       @players = Player.where('drafted = "no" AND salary <= ? AND season = ?', params[:salary_max], @year).order('points DESC')
       flash.now[:notice] = params[:salary_max]
@@ -20,6 +22,7 @@ class HomeController < ApplicationController
   end
   
   def skaters
+    session[:return_to] = request.fullpath
     if params[:salary_max]
       @players = Player.where('drafted = "no" AND position != "G" AND salary <= ? AND season = ?', params[:salary_max], @year).order('points DESC')
       flash.now[:notice] = params[:salary_max]
@@ -29,6 +32,7 @@ class HomeController < ApplicationController
   end
   
   def wingers
+    session[:return_to] = request.fullpath
     if params[:salary_max]
       @players = Player.where('drafted = "no" AND (position = "L" OR position ="R") AND salary <= ? AND season = ?', params[:salary_max], @year).order('points DESC')
       flash.now[:notice] = params[:salary_max]
@@ -38,6 +42,7 @@ class HomeController < ApplicationController
   end
   
   def centers
+    session[:return_to] = request.fullpath
     if params[:salary_max]
       @players = Player.where('drafted = "no" AND position = "C" AND salary <= ? AND season = ?', params[:salary_max], @year).order('points DESC')
       flash.now[:notice] = params[:salary_max]
@@ -47,11 +52,55 @@ class HomeController < ApplicationController
   end
   
   def defenders
+    session[:return_to] = request.fullpath
     if params[:salary_max]
       @players = Player.where('drafted = "no" AND position = "D" AND salary <= ? AND season = ?', params[:salary_max], @year).order('points DESC')
       flash.now[:notice] = params[:salary_max]
     else
       @players = Player.where('drafted = "no" AND position = "D" AND season = ?', @year).order('points DESC')
+    end
+  end
+  
+  ############
+  # RANK
+  ############
+  def skaters_rank
+    session[:return_to] = request.fullpath
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position != "G" AND salary <= ? AND season = ?', params[:salary_max], @year).order('my_rank_position ASC', 'points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position != "G" AND season = ?', @year).order('my_rank_position ASC', 'points DESC')
+    end
+  end
+  
+  def wingers_rank
+    session[:return_to] = request.fullpath
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND (position = "L" OR position ="R") AND salary <= ? AND season = ?', params[:salary_max], @year).order('my_rank_position ASC', 'points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND (position = "L" OR position ="R") AND season = ?', @year).order('my_rank_position ASC', 'points DESC')
+    end
+  end
+  
+  def centers_rank
+    session[:return_to] = request.fullpath
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position = "C" AND salary <= ? AND season = ?', params[:salary_max], @year).order('my_rank_position ASC', 'points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position = "C" AND season = ?', @year).order('my_rank_position ASC', 'points DESC')
+    end
+  end
+  
+  def defenders_rank
+    session[:return_to] = request.fullpath
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position = "D" AND salary <= ? AND season = ?', params[:salary_max], @year).order('my_rank_position ASC', 'points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position = "D" AND season = ?', @year).order('my_rank_position ASC', 'points DESC')
     end
   end
   
@@ -100,7 +149,7 @@ class HomeController < ApplicationController
       @max_to_draft = 20
     when '2014-2015'
       @cap = 69_000_000
-      @poolers = ['Alain', 'Ben', 'Mark', 'Math']
+      @poolers = ['Ben', 'Alain', 'Mark', 'Math']
       @max_to_draft = 20
     end
     

@@ -17,10 +17,16 @@
 	<h2 style="color:blue">
 		<%= link_to "All", home_all_path %>
 		/ <%= link_to "Skaters", home_skaters_path %>
+		<%= link_to "SR", home_skaters_rank_path %>
 		/ <%= link_to "Wingers", home_wingers_path %>
+		<%= link_to "WR", home_wingers_rank_path %>
 		/ <%= link_to "Centers", home_centers_path %>
+		<%= link_to "CR", home_centers_rank_path %>
 		/ <%= link_to "Defenders", home_defenders_path %>
-		/ <%= link_to "Players", players_path %>
+		<%= link_to "DR", home_defenders_rank_path %>
+		<br>
+		<br>
+		<%= link_to "Players", players_path %>
 		/ <%= link_to "Power Play", home_pp_path %> <%= link_to "+", home_pplast_path %>
 		/ <%= link_to "Standings", home_standings_path %>
 		/ <%= link_to "Draft", home_draft_path %>
