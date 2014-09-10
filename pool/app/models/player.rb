@@ -6,10 +6,10 @@ class Player < ActiveRecord::Base
 
 
 
-  validates :name, :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :position, :salary,
+  validates :name, :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :position, :salary, :my_rank_global, :my_rank_position,
   presence: true
 
-  validates :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :salary,
+  validates :points, :goals, :assists, :games, :nhl_points, :nhl_goals, :nhl_assists, :nhl_rank, :salary, :my_rank_global, :my_rank_position,
   numericality: {greater_than_or_equal_to: 0}
 
   #validates :nhl_rank,

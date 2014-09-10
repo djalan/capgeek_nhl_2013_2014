@@ -6,6 +6,11 @@
 </p>
 
 <p>
+  <strong>Id (auto):</strong>
+  <%= @player.id %>
+</p>
+
+<p>
   <strong>Games:</strong>
   <%= @player.games %>
 </p>
@@ -88,6 +93,21 @@
 <p>
   <strong>Drafted:</strong>
   <%= @player.drafted %>
+</p>
+
+<p>
+  <strong>Rank position:</strong>
+  <%= @player.my_rank_position %>
+</p>
+
+<p>
+  <strong>Rank global:</strong>
+  <%= @player.my_rank_global %>
+</p>
+
+<p>
+  <strong>Season:</strong>
+  <%= @player.season %>
 </p>
 
 <%= link_to 'Edit', edit_player_path(@player) %> |

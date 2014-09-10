@@ -43,24 +43,64 @@ class PlayersController < ApplicationController
   # PATCH/PUT /players/1.json
   def update
     
-    puts "Now increasing positions if required"
+    puts "Now changing positions if required"
     if player_params[:my_rank_position] != @player.my_rank_position
-      @position = @player.position
+      puts 'rank_actual', @rank_actual = @player.my_rank_position.to_i
+      puts 'rank_new', @rank_new = player_params[:my_rank_position].to_i
+      puts 'from_what_rank', @from_what_rank = [@rank_actual, @rank_new].min
       
-      @players_to_update = if @position == 'L' or @position == 'R'
+      @players_to_shift = if @player.position == 'L' or @player.position == 'R'
         Player.where("season = ? AND my_rank_position != 9999 AND my_rank_position >= ? AND (position = 'R' OR position = 'L')", \
-          @year, player_params[:my_rank_position]).order('my_rank_position DESC')
+          @year, @from_what_rank).order('my_rank_position ASC')
       else
         Player.where("season = ? AND my_rank_position != 9999 AND my_rank_position >= ? AND position = ?", \
-          @year, player_params[:my_rank_position], @position).order('my_rank_position DESC')
+          @year, @from_what_rank, @player.position).order('my_rank_position ASC  ')
       end
       
-      @players_to_update.each do |p|
-        p.my_rank_position = p.my_rank_position + 1
-        if p.save
-          puts 'A position was increased successfully! (saved in DB)'
-        else
-          puts 'A position was --NOT-- increased successfully! (not saved in DB)'
+      puts 'p count', @players_to_shift.count
+      puts 'rank_max', @rank_max = @players_to_shift.maximum(:my_rank_position).to_i
+    
+      if @rank_new > @rank_actual
+        puts 'Start: decrease'
+        @i = @rank_actual + 1
+        while @i <= @rank_new and @i <= @rank_max
+          puts @i
+          p = @players_to_shift.where('my_rank_position = ?', @i).take!
+          p.my_rank_position = p.my_rank_position - 1
+          if p.save
+            puts 'A position was decreased with success'
+          else
+            puts 'A position was NOT decreased with success'
+          end
+          @i = @i + 1
+        end
+      elsif @rank_new < @rank_actual and @rank_actual != 9999
+        puts 'Start: increase when already ranked'
+        @i = @rank_actual - 1
+        while @i >= @rank_new
+          puts @i
+          p = @players_to_shift.where('my_rank_position = ?', @i).take!
+          p.my_rank_position = p.my_rank_position + 1
+          if p.save
+            puts 'A position was increased successfully! (saved in DB)'
+          else
+            puts 'A position was --NOT-- increased successfully! (not saved in DB)'
+          end
+          @i = @i - 1
+        end
+      elsif @rank_new < @rank_actual and @rank_actual == 9999
+        puts 'Start: increase when actual 9999'
+        @i = @rank_max
+        while @i >= @rank_new
+          puts @i
+          p = @players_to_shift.where('my_rank_position = ?', @i).take!
+          p.my_rank_position = p.my_rank_position + 1
+          if p.save
+            puts 'A position was increased successfully! (saved in DB) when 9999'
+          else
+            puts 'A position was --NOT-- increased successfully! (not saved in DB) when 9999'
+          end
+          @i = @i - 1
         end
       end
     end

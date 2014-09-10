@@ -16,6 +16,10 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
+    <%= f.label :id %><br>
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
     <%= f.label :games %><br>
     <%= f.text_field :games %>
   </div>
@@ -73,7 +77,7 @@
   </div>
   <div class="field">
     <%= f.label :my_rank_global %><br>
-    <%= f.number_field :my_rank_global %>
+    <%= f.number_field :my_rank_global, readonly: true%>
   </div>
   <div class="field">
     <%= f.label :position %><br>
