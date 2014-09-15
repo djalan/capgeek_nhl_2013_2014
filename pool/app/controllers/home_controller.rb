@@ -126,6 +126,7 @@ class HomeController < ApplicationController
   
   # GET home/pp
   def pp
+    session[:return_to] = request.fullpath
     @teams = ['Avalanche', 'Blackhawks', 'Bluejackets', 'Blues', 'Bruins', 'Canadiens', \
       'Canucks', 'Capitals', 'Coyotes', 'Devils', 'Ducks', 'Flames', 'Flyers', 'Hurricanes', \
       'Islanders', 'Jets', 'Kings', 'Lightning', 'Mapleleafs', 'Oilers', 'Panthers', 'Penguins', \
@@ -134,6 +135,7 @@ class HomeController < ApplicationController
   
   
   def i
+    session[:return_to] = request.fullpath
     @players = Player.limit(10)
   end
   
@@ -142,6 +144,7 @@ class HomeController < ApplicationController
   end
   
   def draft
+    session[:return_to] = request.fullpath
     case @year
     when '2013-2014'
       @cap = 64_300_000
