@@ -1,0 +1,42 @@
+rails generate scaffold Player \
+name:string \
+points:integer \
+goals:integer \
+assists:integer \
+rank:integer \
+nhl_points:integer \
+nhl_goals:integer \
+nhl_assists:integer \
+nhl_rank:integer \
+team:string \
+last_team:string \
+power_play:string \
+pp_last_year:string \
+position:string \
+salary:integer \
+
+
+
+<p>
+	<%= form_for(@players, :url => {:action => 'index'}, :html => {:method => :get}) do |f| %>
+		<div>
+			Position: <%= f.text_field(:position) %><%= f.submit "Filter List" %>
+		</div>
+	<% end %>
+</p>
+
+
+					<%= form_for @player do |f| %>
+					<%= t.hidden_field :drafted, value: 'yes' %>
+					<%= t.submit "Click to draft" %>
+					<% end %>
+					
+					
+					<%= f.hidden_field :drafted, value: 'yes' %>
+					
+					<%= select_tag(:drafted, options_for_select([['Alain', 'Alain'], ['Pat', 'Pat'], \
+						['Ben', 'Ben'], ['Mark', 'Mark'], ['Couv', 'Couv'], ['Math', 'Math']])) %>
+					<%= f.submit "Click to draft", data: { confirm: 'Are you sure?' } %>
+					
+					
+					<%= render partial: 'players/_draft_table', :locals => {person: person, position: 'C', index: 0}%>
