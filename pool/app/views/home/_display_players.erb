@@ -37,7 +37,11 @@
 	<tbody>
 		<% @players.each do |player| %>
 		<tr style='background-color:<%=player.color%>' id='<%= player.id %>'>
-			<td><%= player.my_rank_position %></td>
+			<% unless action_name == 'skaters_global' %>
+				<td><%= player.my_rank_position %></td>
+			<% else %>
+				<td><%= player.my_rank_global %></td>
+			<% end %>
 			<td><%= player.name %></td>
 			<td><%= player.team %></td>
 			<td><%= player.position %></td>

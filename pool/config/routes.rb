@@ -18,9 +18,13 @@ Pool::Application.routes.draw do
     post  'home/centers'
     get   'home/defenders'
     post  'home/defenders'
+    get   'home/goalers'
+    post  'home/goalers'
     
     get   'home/skaters_rank'
     post  'home/skaters_rank'
+    get   'home/skaters_global'
+    post  'home/skaters_global'
     get   'home/wingers_rank'
     post  'home/wingers_rank'
     get   'home/centers_rank'

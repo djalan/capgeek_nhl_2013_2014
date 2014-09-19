@@ -60,6 +60,16 @@ class HomeController < ApplicationController
       @players = Player.where('drafted = "no" AND position = "D" AND season = ?', @year).order('points DESC')
     end
   end
+
+  def goalers
+    session[:return_to] = request.fullpath
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position = "G" AND salary <= ? AND season = ?', params[:salary_max], @year).order('points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position = "G" AND season = ?', @year).order('points DESC')
+    end
+  end
   
   ############
   # RANK
@@ -74,6 +84,16 @@ class HomeController < ApplicationController
     end
   end
   
+  def skaters_global
+    session[:return_to] = request.fullpath
+    if params[:salary_max]
+      @players = Player.where('drafted = "no" AND position != "G" AND salary <= ? AND season = ?', params[:salary_max], @year).order('my_rank_global ASC', 'points DESC')
+      flash.now[:notice] = params[:salary_max]
+    else
+      @players = Player.where('drafted = "no" AND position != "G" AND season = ?', @year).order('my_rank_global ASC', 'points DESC')
+    end
+  end
+
   def wingers_rank
     session[:return_to] = request.fullpath
     if params[:salary_max]
